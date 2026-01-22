@@ -1,4 +1,4 @@
-site_name: Command Manual
+site_name: COMMAND MANUAL
 site_description: Documentation for Command Modern Operations
 
 docs_dir: docs
@@ -7,20 +7,23 @@ site_dir: site
 theme:
   name: material
   palette:
-    # Dark mode
+    # Dark mode (default)
     - scheme: slate
       primary: indigo
-      accent: indigo
+      accent: amber
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
     # Light mode
     - scheme: default
       primary: indigo
-      accent: indigo
+      accent: amber
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
   features:
     - navigation.instant
     - navigation.tracking
@@ -30,6 +33,10 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    - header.autohide
+
+extra_css:
+  - stylesheets/custom.css
 
 markdown_extensions:
   - tables
