@@ -110,10 +110,6 @@
   font-family: 'Roboto Mono', monospace;
 }
 
-/* TOC - right sidebar */
-.md-nav__link {
-  font-size: 0.9em;
-}
 
 /* Horizontal rules */
 .md-typeset hr {
