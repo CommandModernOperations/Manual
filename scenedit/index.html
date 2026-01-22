@@ -1,0 +1,3798 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for Command Modern Operations">
+      
+      
+      
+      
+        <link rel="prev" href="../menus-and-dialogs/">
+      
+      
+        <link rel="next" href="../drop-down-menus/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>ScenEdit - COMMAND MANUAL</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#50-scenedit" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="COMMAND MANUAL" class="md-header__button md-logo" aria-label="COMMAND MANUAL" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            COMMAND MANUAL
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ScenEdit
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="amber"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="COMMAND MANUAL" class="md-nav__button md-logo" aria-label="COMMAND MANUAL" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    COMMAND MANUAL
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../preface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Installation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-interface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Interface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../menus-and-dialogs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Menus and Dialogs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ScenEdit
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ScenEdit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#51-getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Getting Started
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#52-scenario-walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Scenario Walkthrough
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.2 Scenario Walkthrough">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#521-basic-scenario-walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2.1 Basic Scenario Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#522-full-scenario-walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2.2 Full Scenario Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#523-final-checklist-for-polishing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2.3 Final Checklist for Polishing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#524-detailed-single-scenario-walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2.4 Detailed Single Scenario Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#53-lua" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Lua
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.3 Lua">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#531-lua-scripting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3.1 Lua Scripting
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#54-editor-drop-down-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 Editor Drop-Down Menu
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.4 Editor Drop-Down Menu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#541-scenario-times-duration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.1 Scenario Times + Duration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#542-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.2 Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#543-campaigns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.3 Campaigns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#544-addedit-sides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.4 Add/Edit Sides
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#545-edit-briefing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.5 Edit Briefing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#546-edit-scoring-dialog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.6 Edit Scoring Dialog
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#547-gods-eye-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.7 God's Eye View
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#548-weather" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.8 Weather
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#549-scenario-features-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.9 Scenario Features + Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5410-merge-scenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.10 Merge Scenario
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#55-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5 Events
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.5 Events">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#551-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5.1 Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#552-special-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5.2 Special Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#553-triggers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5.3 Triggers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#554-setting-up-triggers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5.4 Setting up Triggers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#555-constructing-an-event" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5.5 Constructing an Event
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#56-scenario-batch-rebuilder-sbr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6 Scenario Batch-Rebuilder (SBR)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#57-unit-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7 Unit Actions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.7 Unit Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#571-add-a-unit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.1 Add a Unit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#572-add-satellites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.2 Add Satellites
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#573-edit-aircraft" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.3 Edit Aircraft
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#573-addremoving-a-boat-or-submarine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.3 Add/Removing a boat or submarine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#574-edit-docked-boats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.4 Edit Docked Boats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#575-remove-all-units-of-the-side" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.5 Remove All Units of the Side
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#576-edit-cargo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.6 Edit Cargo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#577-other-editor-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.7 Other editor functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#578-publish-scenario-to-steam-workshop-steam-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.8 Publish Scenario to Steam Workshop (Steam only)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#58-importexport-units" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.8 Import/Export Units
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#59-benchmark-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.9 Benchmark Mode
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drop-down-menus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drop-Down Menus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../missions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Missions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../databases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Databases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../example-scenario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Example Scenario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../appendices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Appendices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../simulation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Simulation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../update-history/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Update History
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faqs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../credits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Credits
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#51-getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Getting Started
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#52-scenario-walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Scenario Walkthrough
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.2 Scenario Walkthrough">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#521-basic-scenario-walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2.1 Basic Scenario Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#522-full-scenario-walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2.2 Full Scenario Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#523-final-checklist-for-polishing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2.3 Final Checklist for Polishing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#524-detailed-single-scenario-walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2.4 Detailed Single Scenario Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#53-lua" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Lua
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.3 Lua">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#531-lua-scripting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3.1 Lua Scripting
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#54-editor-drop-down-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4 Editor Drop-Down Menu
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.4 Editor Drop-Down Menu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#541-scenario-times-duration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.1 Scenario Times + Duration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#542-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.2 Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#543-campaigns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.3 Campaigns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#544-addedit-sides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.4 Add/Edit Sides
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#545-edit-briefing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.5 Edit Briefing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#546-edit-scoring-dialog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.6 Edit Scoring Dialog
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#547-gods-eye-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.7 God's Eye View
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#548-weather" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.8 Weather
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#549-scenario-features-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.9 Scenario Features + Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5410-merge-scenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.4.10 Merge Scenario
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#55-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5 Events
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.5 Events">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#551-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5.1 Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#552-special-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5.2 Special Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#553-triggers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5.3 Triggers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#554-setting-up-triggers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5.4 Setting up Triggers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#555-constructing-an-event" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5.5 Constructing an Event
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#56-scenario-batch-rebuilder-sbr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6 Scenario Batch-Rebuilder (SBR)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#57-unit-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7 Unit Actions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5.7 Unit Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#571-add-a-unit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.1 Add a Unit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#572-add-satellites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.2 Add Satellites
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#573-edit-aircraft" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.3 Edit Aircraft
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#573-addremoving-a-boat-or-submarine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.3 Add/Removing a boat or submarine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#574-edit-docked-boats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.4 Edit Docked Boats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#575-remove-all-units-of-the-side" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.5 Remove All Units of the Side
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#576-edit-cargo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.6 Edit Cargo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#577-other-editor-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.7 Other editor functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#578-publish-scenario-to-steam-workshop-steam-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7.8 Publish Scenario to Steam Workshop (Steam only)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#58-importexport-units" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.8 Import/Export Units
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#59-benchmark-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.9 Benchmark Mode
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="50-scenedit">5.0 ScenEdit<a class="headerlink" href="#50-scenedit" title="Permanent link">&para;</a></h1>
+<details class="info">
+<summary>FAQ: How do you determine Complexity and Difficulty ratings?</summary>
+<p>These are subjective ratings set by the scenario author:</p>
+<ul>
+<li><strong>Difficulty:</strong> How hard the scenario is to win</li>
+<li><strong>Complexity:</strong> How many units are involved and the nuances of victory conditions</li>
+</ul>
+</details>
+<details class="info">
+<summary>FAQ: What are 'Single Unit Airfields' in the database?</summary>
+<p>Single Unit Airfields are "all in one" units. Use them for air bases that are not targets. They're preferred because fewer active units means better game speed.</p>
+<p>To build an airbase from scratch you need: 1 runway, 1 access point/taxiway, 1 aircraft holding unit (tarmac, revetment, hangar, etc.), 1 ammo holding unit (ammo dump, revetment, pad), and 1 fuel facility (AvGas).</p>
+</details>
+<details class="info">
+<summary>FAQ: Is there an upper limit to the number of units in a scenario?</summary>
+<p>The engine can handle billions of units, but more units means more calculations. Performance is also affected by complex nav paths, many long-range sensors, lots of jammers, etc.</p>
+</details>
+<details class="info">
+<summary>FAQ: Why should I include 'unavailable' aircraft?</summary>
+<p>Aircraft stuck on the ground are part of the real unit complement. They take up hangar/revetment space, provide targets for the enemy, and ensure realistic availability of air facilities. Without them, your operational aircraft would have unrealistic access to resources.</p>
+</details>
+<details class="info">
+<summary>FAQ: How do I add aircraft to a specific carrier in a group?</summary>
+<p>Switch to Unit View, select the individual aircraft carrier, then add aircraft. If you select a group, aircraft will be distributed among all ships in the group.</p>
+</details>
+<details class="info">
+<summary>FAQ: Do I need to fill aviation magazines with drop tanks and gun ammo?</summary>
+<p>No. Drop tanks, sonobuoys, and gun ammo are in unlimited supply. You don't need to add them to magazines.</p>
+</details>
+<details class="info">
+<summary>FAQ: Will my platform modifications survive a database update?</summary>
+<p>Changes to individual platforms (weapons, sensors, magazine contents) will be erased on database rebuild. Use <strong>Editor &gt; SBR &gt; Generate Delta Template</strong> to save changes to an .ini file. This file can be reapplied after rebuilding to restore your modifications.</p>
+</details>
+<details class="info">
+<summary>FAQ: How can I show cities on the map?</summary>
+<p>Insert a facility called 'Marker (City)' and rename it as needed.</p>
+</details>
+<details class="info">
+<summary>FAQ: How do I put pictures in the scenario briefing?</summary>
+<p>The simplest method is to use a web-hosted image URL. Alternatively, use a data URI - convert your image to base64 at <a href="http://duri.me/">duri.me</a> and put the result in the href field.</p>
+</details>
+<details class="info">
+<summary>FAQ: How should I name aircraft?</summary>
+<p>Use squadron/regiment name and aircraft number/tail code. Standard convention:</p>
+<ul>
+<li><strong>USN:</strong> <code>VF-1 Wolfpack, NE-101</code> (Squadron, Tail Code-Number)</li>
+<li><strong>USAF:</strong> <code>43rd TFS #05</code> (Squadron, Generic Number)</li>
+<li><strong>Soviet:</strong> <code>611 IAP PVO, 1 Sqn #10</code> (Regiment, Squadron, Number)</li>
+<li><strong>RAF:</strong> <code>No. 120 Sqn #04</code> (Note 'No.' prefix)</li>
+</ul>
+</details>
+<details class="info">
+<summary>FAQ: How many sides can I create?</summary>
+<p>Almost unlimited, but each side needs separate contact lists and allied data exchange, impacting performance. Use as few sides as possible. For neutral/civilian sides that don't shoot, set awareness to 'Blind' and uncheck 'Collective Responsibility.'</p>
+</details>
+<details class="info">
+<summary>FAQ: How can I convert Google Earth placemarks to Command installations?</summary>
+<p>Use the KML-to-INST tool. See the manual for details.</p>
+</details>
+<details class="info">
+<summary>FAQ: How do I fit a ship with future weapons like NSM or SLCM-N?</summary>
+<p>In the Weapons window, add 0/29, 0/32, 0/61, or 0/64 weapon records to the mounts depending on VLS cell count, then load the weapons you want.</p>
+</details>
+<details class="info">
+<summary>FAQ: What is the best way to disable an airbase?</summary>
+<p>Assess airfields based on three criteria:</p>
+<ol>
+<li><strong>Access points vs runways:</strong> If 1 runway with 3 access points, hitting access points is easier</li>
+<li><strong>Aircraft parking type:</strong> Open parking is vulnerable to strikes; hangars limit blast damage; underground storage needs specialized munitions</li>
+<li><strong>Ammo storage concentration:</strong> A single surface ammo depot may be the easiest high-value target</li>
+</ol>
+</details>
+<details class="info">
+<summary>FAQ: How do I account for Daylight Saving Time?</summary>
+<p>Command uses Zulu time (UTC) primarily. Local time is displayed without DST. If DST matters for your scenario (matching local sunrise/sunset), manually enter DST start and end dates in <strong>Editor &gt; Scenario Date and Duration</strong>.</p>
+</details>
+<p>The scenario editing mode in COMMAND is accessible by selecting either
+"Create New Scenario" or "Edit Scenario" from the start menu, or the
+"create new blank scenario" option from the file menu. Existing files
+can be accessed via the "Edit Scenario" choice on the main menu.</p>
+<h2 id="51-getting-started">5.1 Getting Started<a class="headerlink" href="#51-getting-started" title="Permanent link">&para;</a></h2>
+<p>The scenario editor is the most versatile part of COMMAND. It can be
+used for making scenarios, with V 2.0 boasting a rewritten map engine
+and other "under the hood" performance improvements that make building
+and running monstrously large battles easier than ever. It can also be
+used for "editor experiments" where certain situations can be quickly
+set up for the sake of entertainment or curiosity.</p>
+<p>Certain features can only be used in it, or in "ScenEdit" mode. This
+section will explore those features.</p>
+<h2 id="52-scenario-walkthrough">5.2 Scenario Walkthrough<a class="headerlink" href="#52-scenario-walkthrough" title="Permanent link">&para;</a></h2>
+<p>To make a scenario.</p>
+<h3 id="521-basic-scenario-walkthrough">5.2.1 Basic Scenario Walkthrough<a class="headerlink" href="#521-basic-scenario-walkthrough" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Click "<strong>Create New Scenario</strong>" on the start menu. This will bring you
+  to a blank globe screen.</p>
+</li>
+<li>
+<p>Go to <strong>"Add/Edit Sides</strong>" on the editor menu. Then click "<strong>Add</strong>"
+  and name the first side.</p>
+</li>
+<li>
+<p>Go to "<strong>Unit Actions</strong>" and then click "<strong>Add Unit</strong>" on the editor
+  menu or press the <strong>INSERT</strong> key.</p>
+</li>
+<li>
+<p>Select the type of unit(s) to add (see <strong>5.7.1 Add a Unit</strong> on page
+  <a href="#add-a-unit">101</a>). Make sure to add airbases for air units.</p>
+</li>
+<li>
+<p>Return to Add/Edit Sides and add additional sides, particularly the
+  enemy side. If you do not wish for them to be playable, make sure to
+  select the "<strong>Side Is Computer Only</strong>" button.</p>
+</li>
+</ul>
+<hr />
+<ul>
+<li>
+<p>Add missions via the "<strong>Missions/Ref Points</strong>" menu (see <strong>7.3
+  Reference Points</strong> on page <a href="#reference-points">161</a>). For non-playable
+  sides, this is necessary-otherwise they will just sit there and do
+  nothing. For playable sides, it can still be useful.</p>
+</li>
+<li>
+<p>Once the missions are added, saving the scenario is highly encouraged.</p>
+</li>
+<li>
+<p>A test run to see if the missions work is also strongly encouraged,
+  reloading to the original file.</p>
+</li>
+<li>
+<p>If everything works as intended, proceed to add scoring events (see
+  <strong>5.5.5 Constructing an Event</strong> on page <a href="#constructing-an-event">100</a>)</p>
+</li>
+<li>
+<p>Save the scenario and then test-run it to ensure the scoring events
+  work.</p>
+</li>
+</ul>
+<hr />
+<ul>
+<li>Add briefings and scenario descriptions.</li>
+</ul>
+<h3 id="522-full-scenario-walkthrough">5.2.2 Full Scenario Walkthrough<a class="headerlink" href="#522-full-scenario-walkthrough" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Create a scenario idea.</p>
+</li>
+<li>
+<p>Perform research if necessary. The need for historical accuracy varies
+  greatly on both the designer's preferences and type of scenario.
+  Obviously, a detailed re-enactment of a real battle needs to be highly
+  researched. A looser alternate history can be but does not have to.</p>
+</li>
+<li>
+<p>Go to the editor and load an appropriate database. Depending on the
+  time period, it's either the Cold War Database or DB3K. <strong>CWDB is WWII
+  to 1980</strong>, <strong>DB3K is anything beyond that</strong>.</p>
+</li>
+<li>
+<p>Create the sides of the scenario and set their postures and conditions
+  to an appropriate setting. Not only should hostile sides be marked as
+  such, but <em>neutral traffic should be set to "Blind" to reduce CPU
+  stress</em>. (See <strong>5.4.4 Add/Edit Sides</strong> on page <a href="#addedit-sides">84</a>.)</p>
+</li>
+<li>
+<p>Decide which side the player will be. Set non-player sides to
+  "Computer-Only"</p>
+</li>
+<li>
+<p>Add the units and, if necessary, the missions for the player's side.</p>
+</li>
+<li>
+<p>Add the units and missions for the opponent's side. This is necessary
+  for a computer opponent.</p>
+</li>
+<li>
+<p>Add the necessary events and scoring. (See <strong>5.5 Events</strong> on page
+  <a href="#events">93</a>)</p>
+</li>
+<li>
+<p>Playtest the scenario.</p>
+</li>
+<li>
+<p>Complete the final checklist. (see immediately below)</p>
+</li>
+<li>
+<p>Submit the scenario.</p>
+</li>
+</ul>
+<h3 id="523-final-checklist-for-polishing">5.2.3 Final Checklist for Polishing<a class="headerlink" href="#523-final-checklist-for-polishing" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Scenario saved as a scenario file (scenarioname.scen) not a save game
+  (savename.sav).</p>
+</li>
+<li>
+<p>Scenario Times, duration, complexity, difficult and location/settings
+  are set.</p>
+</li>
+<li>
+<p>If a playable side has tons of sensors the merge range-symbols in map
+  settings is turned on to reduce clutter.</p>
+</li>
+<li>
+<p>Scenario description and the scenario briefings for playable sides are
+  written.</p>
+</li>
+<li>
+<p>Sides are added, postures, ROE and awareness are set. If side is not
+  playable the computer only check box is checked.</p>
+</li>
+<li>
+<p>If a side is to be playable by both the AI and a human player than all
+  missions created for the AI have the Scrub mission if human side is
+  human checkbox checked in the mission editor.</p>
+</li>
+<li>
+<p>If a side is included just for environment (fishing boats, merchants)
+  you've set their awareness level to blind to minimize unnecessary
+  sensor calculations.</p>
+</li>
+<li>
+<p>Units are named, and they are assigned to missions.</p>
+</li>
+<li>
+<p>The scenario features and settings are set to what the designer
+  intended.</p>
+</li>
+<li>
+<p>Air bases and ships that host aircraft have populated magazines.
+  Alternatively, the "unlimited ordnance at bases" option is set to
+  default to on.</p>
+</li>
+<li>
+<p>Aircraft are armed or set to reserve, so players know to add
+  munitions. Aircraft that are not to be used are set to maintenance.</p>
+</li>
+<li>
+<p>Boats, landing craft and UUV are added where appropriate.</p>
+</li>
+<li>
+<p>Groups are named, and their formations are set in the formation
+  editor.</p>
+</li>
+<li>
+<p>All reference points are deselected you don't want selected and they
+  are locked if you don't want players moving them.</p>
+</li>
+<li>
+<p>No-navigation zones are added and locked where necessary.</p>
+</li>
+<li>
+<p>Missions and exclusion zones do not share reference points. Likewise,
+  missions and no-navigate zones do not as well.</p>
+</li>
+<li>
+<p>All events created in the event editor have triggers and actions.</p>
+</li>
+<li>
+<p>If added, special actions work properly and effectively.</p>
+</li>
+<li>
+<p>If you are using points in the scenarios, you have correctly
+  configured the scoring dialog.</p>
+</li>
+<li>
+<p>If the game is in unit view switch it back to group view by pressing
+  the Page up button.</p>
+</li>
+<li>
+<p>Layers (Relief, latitude and longitude) are activated in map settings
+  if you would like to use them.</p>
+</li>
+<li>
+<p>God's eye view is turned off if used.</p>
+</li>
+<li>
+<p>If you have a message displayed you've cleared them by select message
+  log and clear for the game drop down menu.</p>
+</li>
+<li>
+<p>The losses and expenditures report is clear. Any erroneous entries can
+  be cleared by clicking the Reset All button.</p>
+</li>
+<li>
+<p>The scenario elements work properly and there are no in-game problems
+  (i.e. a missile strike that never activates not because of a bug or
+  scenario editor flaw, but simply because its target is never spotted
+  in time)</p>
+</li>
+<li>
+<p>The scenario feels fun to play. A scenario that is too hard (the
+  victory condition can only sometimes barely be met) or too easy (the
+  player's side can effortlessly win with standoff weapons) may need
+  reworking even if everything's gone right technically.</p>
+</li>
+</ul>
+<h3 id="524-detailed-single-scenario-walkthrough">5.2.4 Detailed Single Scenario Walkthrough<a class="headerlink" href="#524-detailed-single-scenario-walkthrough" title="Permanent link">&para;</a></h3>
+<p>This section goes into detail on the exact steps needed to make a very
+simple scenario.</p>
+<p>-Click on "Create New Scenario" on the title screen or "Create New Blank
+Scenario" on the file menu. A blank world map should appear.</p>
+<p>-Move and zoom the map to the area of the world you want the scenario to
+take place in. While COMMAND allows for intercontinental travel, a
+beginner should start small. This step doesn't <em>have</em> to be taken now,
+but it doesn't hurt. Let's zoom in on Mauritania.</p>
+<p><img alt="" src="../images/image55.jpg" /></p>
+<p>-Go to the Editor drop down menu. The first thing you should do is check
+the database. Since changing DBs wipes the rest of the scenario, the
+database should be decided on before any more work is done. There are
+two main databases, the DB3000 (1980+) and the CWDB (1946-1979). The
+DB3000 won't have World War II surplus fighters like P-38s, and the CWDB
+won't have advanced modern aircraft like F-22s. Here we want the DB3000,
+so select "<strong>use latest DB3000.</strong>"</p>
+<p><img alt="" src="../images/image56.png" /></p>
+<p>-Now add a side. This will be the player's side. We'll just call it
+"Blue" for now. Go to Add/Edit Sides on the editor drop down menu, click
+add, type "Blue", and click "<strong>OK</strong>."</p>
+<p><img alt="" src="../images/image57.png" /></p>
+<p>It's time to add an airbase. Fortunately, COMMAND has many prebuilt
+ones. Go again to the <strong>editor drop-down menu</strong>, then go to
+"<strong>import-export units</strong>" and "<strong>load units</strong>". Go to "<strong>main,
+import/export</strong>", then scroll down to "<strong>Mauritania"</strong> and expand. Check
+the box that says "<strong>Nouakchott IA</strong>", and then press "<strong>Load Selected
+Installation(s)</strong>". Then close the window after it says "<strong>completed!</strong>"</p>
+<p><img alt="" src="../images/image58.png" /></p>
+<p>A small airfield shall now appear on the Mauritanian west coast. Click
+on it.</p>
+<p><img alt="" src="../images/image59.jpeg" /></p>
+<p>Go to either "<strong>Edit Aircraft</strong>" in the Editor drop-down menu or press
+the "<strong>Edit hosted aircraft</strong>" button on the right bar with the airfield
+selected. The edit aircraft window will appear.</p>
+<p>Into "Class", type "F-4S".</p>
+<p>Two types of (functionally identical) units will appear. Select the
+lower (Navy) one, type "<strong>Phantom</strong>" for callsign, and enter <strong>5</strong> into
+"how many". Then press "<strong>Add Selected</strong>". Five F-4S Phantom IIs should
+appear in the "current" tab on the left. Close the window.</p>
+<p><img alt="" src="../images/image60.png" /></p>
+<p>Now zoom close to the airbase. Go to either Editor Drop Down/Unit
+Actions/Add Unit or just press insert. The mouse cursor should change.
+Click on an area of land near the airbase.</p>
+<p>Select "<strong>Facility</strong>", then in the "class" box, type in "<strong>Bar Lock</strong>".
+Several types of Bar Lock radar will appear. Select one and press
+"<strong>OK</strong>." A Bar Lock 3D air search radar station will appear at the
+spot. Click on the Bar Lock to select it. Note that in the Add new unit
+dialog, you have the ability to filter the desired units by class,
+subtype, country and whether the unit is real or hypothetical.</p>
+<p><img alt="" src="../images/image61.png" /></p>
+<p>On the right bar, press "<strong>Sensors</strong>". Uncheck the "<strong>Unit Obeys
+EMCON</strong>" box and click the "<strong>active</strong>" box on the "Bar Lock A" option.
+Close the window. The radar is now emitting.</p>
+<p><img alt="" src="../images/image62.png" /></p>
+<p>Now we need to arm the fighters. Reselect the airbase. Click on
+"<strong>magazines</strong>" on the right bar, then "<strong>add weapons</strong>". Add the 120
+Sparrows and 48 Sidewinders (or any number, but those choices are the
+most convenient).</p>
+<p><img alt="" src="../images/image63.png" /></p>
+<p>Close the windows and click on "<strong>aircraft</strong>" on the right bar. The five
+Phantoms are all red with "<strong>no loadout</strong>", meaning they cannot
+function. Select all of them, then press <strong>ready/arm</strong>. You'll notice in
+the air ops window that the air-to-air loadouts are functional, but the
+rest aren't. This is because only the air-to-air missiles are available
+in the magazines.</p>
+<p>Select "<strong>A/A: AIM-7, Heavy</strong>", and press the red "<strong>ready immediately
+(ScenEdit) button"</strong>. While in normal mode they'd need time to prepare,
+here they're ready instantly. Now they appear as green, meaning they're
+ready to go.</p>
+<p><img alt="" src="../images/image64.png" /></p>
+<p>All right, one side is up. It has a radar station for spotting and
+aircraft capable of intercepting. Now for the other.</p>
+<p>Go to <strong>Add/Edit Sides</strong> again, then add a side called "<strong>Red"</strong>. Before
+closing the window, make sure to check the "side is computer-only" box.
+Now go to "<strong>Switch To</strong>" and select Red.</p>
+<p>The map is now blank again. Go to add unit/insert, click on a spot near
+the northern Mauritania/Western Sahara border, and type in
+"<strong>Single-Unit Airfield</strong>". Select one with a long runway and press OK.
+It should appear.</p>
+<p>Now press the play button for a few seconds and then pause the
+simulation again. Two green symbols-the Nouakchott airbase and Bar Lock,
+should appear. Green means neutral, and we want these to be hostile. Go
+back to add/edit sides. Click on Blue, go to Postures, and then select
+Hostile. Do the same for Red. They should now appear as red on the map.</p>
+<p><img alt="" src="../images/image65.png" /></p>
+<p>Select the airfield (making sure you're controlling Red) and then click
+"<strong>edit hosted aircraft</strong>" on the right bar. Type in C-130A and select
+one of the two C-130As (NOT the AC-130A on the top). Write "<strong>Target</strong>"
+under callsign and add two.</p>
+<p>Go to "<strong>planes</strong>" and ready/arm again. Select <strong>Ferry</strong> and <strong>ready
+immediately</strong>. There's no need for filling the magazines in this case.</p>
+<p>They need missions to function. Using <strong>CRTL-right click</strong> or
+<strong>CRTL-Ins</strong>, put two reference points near, but not too near, the blue
+airbase. Make sure they're selected.</p>
+<p><img alt="" src="../images/image66.png" /></p>
+<p>Now go to the missions/reference points drop down menu and add mission.
+Make it a support mission.</p>
+<p><img alt="" src="../images/image67.png" /></p>
+<p>Select both C-130s and add them to the mission, then uncheck the 1/3rd
+rule.</p>
+<p><img alt="" src="../images/image68.png" /></p>
+<p>Now save the game. If loaded in normal play, the scenario now
+functions-the C-130s will take off on their own. But now it's time to
+make it meaningful.</p>
+<p>Switch to Blue or exit and reopen the scenario (it will load as Blue by
+default, as Red is checked to computer-only). Go to Editor-Dropdown/Edit
+Scoring. Set the Triumph score to 150. Close the window.</p>
+<p><img alt="" src="../images/image69.png" /></p>
+<p>Now go to <strong>Editor/Event Editor/Triggers</strong>. Select a "<strong>create new
+trigger, unit is destroyed</strong>." Type in C-130 Shot Down. Select Target
+Side Red, Target Type Aircraft, Target Subtype Transport, Target Class
+C-130A Hercules. Press OK.</p>
+<p><img alt="" src="../images/image70.png" /></p>
+<p>Now Editor/Event Editor/Actions. You want two actions this time. Select
+"<strong>Create New Action</strong>" with "<strong>Points</strong>", and then Side: <strong>Blue</strong>,
+<strong>Point Change 500</strong>, with <strong>Blue Points</strong> in the description. Press OK.
+Then select Create New Action with "<strong>End Scenario</strong>". Press <strong>OK</strong> in
+the now limited action editor window.</p>
+<p>Close the window, now go to Event Editor/Events.</p>
+<p>Check the <strong>Event is Repeatable</strong> Tab, Type in <strong>C-130 Hit for
+"description</strong>", then add <strong>C-130 Shot Down</strong> for trigger and "<strong>Blue
+Points</strong>" and "<strong>End The Scenario</strong>" for Action. Press OK. Save the
+scenario.</p>
+<p><img alt="" src="../images/image71.png" /></p>
+<p>By this point, the internal mechanics of the scenario are complete. All
+that's left is touching it up.</p>
+<p>At the very top of the editor drop down menu is "<strong>scenario
+times-duration</strong>". Make sure the "<strong>scenario current time</strong>" and
+"<strong>scenario start time</strong>" are the same, set the "<strong>complexity</strong>" to 2
+(for the sake of the exercise) and put "<strong>Mauritania</strong>" as the location.
+Then press <strong>OK.</strong></p>
+<p>Now go to editor menu- "<strong>Title/description</strong>". This has probably
+already come up as part of the initial save of the scenario. In the
+description box, write "<strong>Defend southern Mauritania from unknown red
+contacts</strong>. <strong>This is an editor test."</strong></p>
+<p>Then press <strong>OK</strong>.</p>
+<p>Now go to "<strong>Edit Briefing</strong>", and type in the sentence. "<strong>Investigate
+and Engage incoming air contacts</strong>." Press <strong>OK</strong>. Most scenarios need
+and have a longer briefing, but this works for now.</p>
+<p>Save the scenario again and return to the title screen.</p>
+<p>At the title screen, go to "<strong>start new game</strong>", and select the scenario
+in question. The scenario will appear as having Mauritania as the
+location, a higher complexity and difficulty score, and the scenario
+description of "Defend southern Mauritania from unknown red contacts.
+This is an editor test."</p>
+<p>The only option is to play as Blue, and you will see the Blue
+"Investigate and Engage incoming air contacts" briefing. Enter the
+scenario and run it for a bit. Two air contacts should appear, detected
+by the Bar Lock.</p>
+<p>Using either an intercept mission, patrol mission, or manual engagement,
+send the Phantoms up to engage the contacts. They will be shot down.
+Once one C-130 is downed, if all has gone right, a popup saying "The
+scenario has concluded. You will now be presented with the evaluation of
+your performance." will appear. Press OK. Another window should appear,
+saying Triumph: Final Score 500" (or 1000 if both planes were quickly
+downed). You've won!</p>
+<p>A complete scenario has now been made and played.</p>
+<h2 id="53-lua">5.3 Lua<a class="headerlink" href="#53-lua" title="Permanent link">&para;</a></h2>
+<h3 id="531-lua-scripting">5.3.1 Lua Scripting<a class="headerlink" href="#531-lua-scripting" title="Permanent link">&para;</a></h3>
+<p>Lua is a programming language that Command uses for advanced scripting.
+It is extremely versatile and can provide many bonuses. Even at their
+simplest, Lua scripts can add much versatility beyond the limits of what
+the internal event editor alone can provide.</p>
+<p>The Basics:</p>
+<p>Lua can be used to:</p>
+<ul>
+<li>
+<p>Spawn, as opposed to teleport, units into the map during a scenario.</p>
+</li>
+<li>
+<p>Change the weather mid-scenario.</p>
+</li>
+<li>
+<p>Reassign units to different missions.</p>
+</li>
+<li>
+<p>Change side postures and doctrine.</p>
+</li>
+<li>
+<p>Add elements of chance so that the scenario is never the same way
+  twice.</p>
+</li>
+<li>
+<p>Make scenarios detailed and varied.</p>
+</li>
+</ul>
+<p>Thus, Lua can be used for creating a basic scenario where the player
+starts with a random variety of units. It is here that a basic
+walkthrough will be conducted.</p>
+<p>In either a subset of "<strong>event actions</strong>" or a "<strong>Lua script console</strong>"
+in the event editor, there's a Lua menu. A basic set of "<strong>recipes</strong>"
+are there, see "<strong>Command Lua API</strong>" at
+<a href="https://commandlua.github.io/">https://commandlua.github.io/</a>
+for explanations. One such recipe is <strong><em>ScenEdit_AddUnit</em></strong> (Table).
+When filled in, it looks like this:</p>
+<hr />
+<p>ScenEdit_AddUnit({type='Sub', side='USSR', name='B-23',
+  dbid='187', latitude='49.3812997111192',
+  longitude='-36.8903957715054'})</p>
+<hr />
+<p>This, if run with a side marked "USSR" in a DB3K database, will generate
+a Foxtrot-class submarine named B-23 in the middle of the North
+Atlantic.</p>
+<p><strong>NOTE: Lua can be very finicky, and a single character in the wrong
+spot can mess up a script. Also, be aware that values carry over across
+scenarios, so do not assume they will be the default ones.</strong></p>
+<p>That example is using Lua to duplicate something that can be
+accomplished with the traditional interface. The same task could be
+accomplished via finding the spot in the Atlantic and using the unit
+editor. A more complex task is to include one of three very different
+submarines.</p>
+<hr />
+<p>a = math.random(1,3)
+  if a == 1 then
+  ScenEdit_AddUnit({type='Sub', side='USSR',name='B-10',
+  dbid='287', latitude='50.52351341355',
+  longitude='-37.177899984719'})
+  elseif a == 2 then
+  ScenEdit_AddUnit({type='Sub', side='USSR',name='B-15',
+  dbid='278', latitude='50.52351341355',
+  longitude='-37.177899984719'})
+  elseif a == 3 then
+  ScenEdit_AddUnit({type='Sub', side='USSR',name='K-115',
+  dbid='391', latitude='50.52351341355',
+  longitude='-37.177899984719'})
+  end</p>
+<hr />
+<p>Here there is an even chance of one of the following three submarines
+being spawned.</p>
+<p>B-10, a Whiskey (one of the earliest and least capable diesel subs)</p>
+<p>B-15, a Juliett (a 1960s diesel submarine that still has long-range
+anti-ship missiles)</p>
+<p>K-115, a Charlie II (a nuclear submarine with advanced
+Bazalt/Sandbox-style anti-ship missiles)</p>
+<p>Tying this script to an event that is triggered after the scenario is
+loaded (see <strong>5.5 Events</strong> on page <a href="#events">93</a>) is the next step. Once
+a player (with the "USSR" being a playable side) runs the scenario in
+non-ScenEdit mode long enough to trigger the event, they will receive
+one of the three submarines.</p>
+<p>For a non-playable side, patrol orders need to be bundled-in for any
+mobile unit. For example:</p>
+<hr />
+<p>ScenEdit_AddUnit({type='Sub', side='USSR',name='B-24',
+  dbid='287', latitude='51.52351341355',
+  longitude='-38.177899984719'})
+  ScenEdit_AssignUnitToMission('B-24', 'eastpatrol')</p>
+<hr />
+<p>Creating two different (and possibly) empty missions in the scenario
+editor, having the USSR be a <em>non-</em>playable side, and using a
+math.random script as follows:</p>
+<hr />
+<p>a = math.random(1,2)
+  if a == 1 then
+  ScenEdit_AddUnit({type='Sub', side='USSR',name='B-24',
+  dbid='287', latitude='51.52351341355',
+  longitude='-38.177899984719'})
+  ScenEdit_AssignUnitToMission('B-24', 'eastpatrol')
+  elseif a == 2 then
+  ScenEdit_AddUnit({type='Sub', side='USSR',name='B-24',
+  dbid='287', latitude='51.52351341355',
+  longitude='-38.177899984719'})
+  ScenEdit_AssignUnitToMission('B-24', 'westpatrol')
+  end</p>
+<hr />
+<p>..means that once the event is triggered, a Whiskey submarine will spawn
+in the same spot and conduct a mission in one of two areas. This sort of
+Lua randomization is useful for increasing the variability and
+replayability of scenarios.</p>
+<p>Lua can do more than just set up scenarios. It can also make them more
+dynamic.</p>
+<p>One Lua action is using the previously mentioned
+<strong><em>ScenEdit_AssignUnitToMission</em></strong> to either assign or change missions
+for units that already exist. Simple random selection can make the
+following units assigned to one of three possibilities.</p>
+<hr />
+<p>a = math.random(1,10)
+  if a\&lt;5 then
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #1', 'NONE')
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #2', 'NONE')
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #3', 'NONE')
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #4', 'NONE')
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #5', 'NONE')
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #6', 'NONE')
+  elseif a&gt;=5 and a\&lt;8 then
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #1', 'Close
+  Patrol')
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #2', 'Close
+  Patrol')
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #3', 'Close
+  Patrol')
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #4', 'Close
+  Patrol')
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #5', 'Close
+  Patrol')
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #6', 'Close
+  Patrol')
+  elseif a&gt;=8 then
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #1', 'Aggressive
+  Patrol')
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #2', 'Aggressive
+  Patrol')
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #3', 'Aggressive
+  Patrol')
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #4', 'Aggressive
+  Patrol')
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #5', 'Aggressive
+  Patrol')
+  ScenEdit_AssignUnitToMission('Ukrainian Flanker #6', 'Aggressive
+  Patrol')
+  end</p>
+<hr />
+<p>Depending on the roll, the six Su-27s will either stay grounded
+(NONE-assigned to no mission), launch but only stay near their air bases
+(assigned to the "Close Patrol" mission), or launch in a mission with a
+large prosecution area, making them more eager to fight (assigned to the
+"Aggressive Patrol" mission).</p>
+<p>Another is changing sensor statuses to active or passive via
+<strong><em>ScenEdit_SetEMCON</em></strong>. The template is as follows:</p>
+<hr />
+<p>ScenEdit_SetEMCON('EMCONSubjectType', 'EMCONSubjectNameOrID',
+  'EMCONSettings')</p>
+<hr />
+<p>SubjectType can be a unit, group, mission, or side.</p>
+<p>For a single unit it could be:</p>
+<hr />
+<p>ScenEdit_SetEMCON('Unit', 'USS McCracken', 'Radar=Passive')</p>
+<hr />
+<p>This turns off the radars on a unit called the USS McCracken.</p>
+<p>Whereas for an entire side it could be:</p>
+<hr />
+<p>ScenEdit_SetEMCON('Side', 'USSR', 'Sonar=Active;Radar=Passive')</p>
+<hr />
+<p>This turns off the radars but turns on the active sonars for every
+"USSR" unit.</p>
+<p>This can be combined with triggers (see <strong>5.5.3 Triggers</strong> on page
+<a href="#triggers">97</a>) to enhance scenarios in the following ways:</p>
+<p>-Combined with time-related triggers to symbolize intermittent
+emissions. A unit doesn't have to go to the extremes of either always or
+never using the active sensors.</p>
+<p>-Combined with detection-related triggers to symbolize a unit commander
+going "Ok, the cat's out of the bag, better emit for the sake of
+awareness" without needing to be explicitly under attack.</p>
+<p>-Combined with special actions to symbolize a general order,
+particularly if it's on an allied side the player otherwise doesn't
+directly control.</p>
+<p>Still another Lua capability is changing the weather. The
+<strong><em>ScenEdit_SetWeather</em></strong> function has four inputs: temperature
+(increments of 0 to 50 degrees Celsius), rainfall (increments of 0 to
+50), clouds (increments of 0.1 to 1), and sea state (increments of 0 to
+9).</p>
+<p>So, in basic terms, running the following <strong>SetWeather</strong> action-</p>
+<hr />
+<p>ScenEdit_SetWeather((35),(12),(0.6),(4))</p>
+<hr />
+<p>...will lead to a base temperature of 35 degrees Celsius (95 degrees
+Fahrenheit), moderate high clouds and rain, and a sea state of 4 (wind
+11-16 knots, small waves).</p>
+<p>Lua is capable of much more than these major examples. It can even
+create a type of "AI" if the programmer is skilled enough.</p>
+<p>If in doubt about anything, or if one simply wants to learn more, ask
+online in the "Lua Legion" subforum at
+<a href="http://www.matrixgames.com/forums/tt.asp?forumid=1681">http://www.matrixgames.com/forums/tt.asp?forumid=1681</a>.</p>
+<h2 id="54-editor-drop-down-menu">5.4 Editor Drop-Down Menu<a class="headerlink" href="#54-editor-drop-down-menu" title="Permanent link">&para;</a></h2>
+<p>The editor drop-down menu only appears in ScenEdit mode and contains the
+scenario creation functions.</p>
+<h3 id="541-scenario-times-duration">5.4.1 Scenario Times + Duration<a class="headerlink" href="#541-scenario-times-duration" title="Permanent link">&para;</a></h3>
+<p>This drop down allows you to set the current scenario time, the scenario
+start time, scenario duration, complexity, difficulty and location. The
+exact date of the scenario will change everything from national borders
+to the location of polar ice.</p>
+<p><strong>Scenario Current Time</strong>: Sets the current scenario time.</p>
+<ul>
+<li>
+<p>Enter a date by either selecting and manipulating the individual
+  elements of the date field (day name, Month, Day, Year) or clicking
+  the calendar icon which will launch a small calendar dialog that can
+  be used to choose a date.</p>
+</li>
+<li>
+<p>Enter a time by manually manipulating the hour, minute and second
+  fields or typing them in.</p>
+</li>
+</ul>
+<p><strong>Scenario starts on</strong>: Sets the time the scenario starts on.</p>
+<ul>
+<li>
+<p>Enter a date by either selecting and manipulating the individual
+  elements of the date field (day name, Month, Day, Year) or clicking
+  the calendar icon which will launch a small calendar dialog that can
+  be used to choose a date.</p>
+</li>
+<li>
+<p>Enter a time by manually manipulating the hour, minute and second
+  fields or typing them in.</p>
+</li>
+</ul>
+<p><strong>Scenario Duration (And lasts for) Field</strong>: Enter a numeric value in
+the days, hours, mins (minutes) fields to set this. This can be changed
+after playtesting if one feels the scenario is too short or too long for
+its own good.</p>
+<p><strong>Complexity</strong>: Allows editors to set a scenario complexity using a 1 to
+5 scale. This will be reflected by the Complexity green bar scale in the
+load scenario dialog. Complexity is inherently arbitrary and up to the
+scenario creator, but a general rule of thumb is that scenarios with
+more units and/or a situation that requires more setup, such as aerial
+refueling or coordinated time-on-target strikes, should have a higher
+complexity level.</p>
+<p><strong>Difficulty</strong>: Allows editor to set a scenario difficulty using a 1 to
+5 scale. This will be reflected by the Difficulty green bar scale in the
+load scenario dialog. Like complexity, difficulty is inherently
+arbitrary and up to the scenario creator. Scenarios should be play
+tested to see the 'true' difficulty before a final score is assigned.
+However, a scenario where the win condition can be consistently achieved
+should get a low ranking, and one where it cannot easily be
+accomplished, even by the scenario creator, should be the opposite.</p>
+<p><strong>Location</strong>: Allows editor to fill in a text value noting location that
+will be displayed in the location field of the load scenario dialog. The
+location can be anything from geographical locations (I.e. GIUK Gap,
+East China Sea) to conflicts (Persian Gulf War, Indo-Pakistan War).</p>
+<p><strong>Title + Description</strong>: This dialog allows editors to add the scenario
+Title and descriptive text that appears in the Load Scenario Dialog.</p>
+<p><strong>Title Field</strong>: Enter a text value to give the scenario a title. It
+will appear in the load scenario dialog under title.</p>
+<p><strong>Description</strong>: This field allows editors to add text, pictures and
+links to the scenario description that appears in the load scenario
+dialog It. It is copy and paste capable and includes most common Windows
+text edit functions.</p>
+<p><strong>To add text</strong>: Type and edit using the appropriate buttons. You can
+highlight over existing text and use the function buttons to make edits.</p>
+<p><strong>Pictures</strong>: Add pictures as needed.</p>
+<p><strong>Links</strong>: Add links to background materials, etc. as needed.</p>
+<h3 id="542-database">5.4.2 Database<a class="headerlink" href="#542-database" title="Permanent link">&para;</a></h3>
+<p><strong>Current:</strong> This displays the current database in use by the scenario.</p>
+<p><strong>Use Latest DB3000:</strong> This updates the database to the latest version
+of the DB3000, covering 1980 to the ever shifting "near future". NOTE:
+Changing the DB in this fashion will delete all sides, so it's important
+for scenario designers to choose a DB <em>before</em> adding sides and units.</p>
+<p><strong>Use Latest CWDB:</strong> This updates the database to the latest version of
+the CWDB, covering 1946 to 1979.</p>
+<p><strong>Load Other DB File:</strong> This allows a database file to be manually
+loaded.</p>
+<p><strong>Upgrade Scenario To Latest DB Version:</strong> This allows an existing
+scenario to be updated to the latest version of its respective database
+without losing any units. It can be accomplished as either a "shallow"
+or "deep" rebuild, or used to update multiple scenarios. See <strong>8.1
+Scenarios vs. Databases</strong> on page <a href="#scenarios-vs.-databases">187</a>.</p>
+<h3 id="543-campaigns">5.4.3 Campaigns<a class="headerlink" href="#543-campaigns" title="Permanent link">&para;</a></h3>
+<p>This allows for the creation of campaigns of linked scenarios.</p>
+<p>In it, the player can attach scenarios, attach attachments, and set a
+pass score to enable progress to the next mission in campaign play.</p>
+<p>· Use <strong>"Add scenario</strong>" to select an individual scenario for part of
+the campaign. Likewise, "Add attachment" adds a scenario attachment.</p>
+<p>. "<strong>Remove selected</strong>" is self-explanatory and removes the selected
+element.</p>
+<p>. "<strong>Move Up/Down</strong>" changes the position of the selected element,
+useful for changing the order of scenarios.</p>
+<p>· At the bottom of the campaign dialog, enter an appropriate pass score
+(what score the player needs to obtain in order to reach the next
+scenario) in the dialog box and press "set". It will change the score
+for the selected scenario.</p>
+<p>· "<strong>Title and Description</strong>" describes the beginning of the campaign,
+what players will see at the menu screen.</p>
+<p>· "<strong>Ending Text</strong>" describes the ending of the campaign, what players
+will see after they've beaten it.</p>
+<p>· "<strong>Save Campaign</strong>" saves the current campaign.</p>
+<p><strong>Create New:</strong> This opens up a blank campaign editor window where
+scenarios (not necessarily the currently loaded one) can be added.</p>
+<p><strong>Load From File:</strong> This loads a previously existing campaign for
+editing. Scenarios and attachments can be added or removed, the order
+and pass score can be changed, and so can the opening and ending text.</p>
+<h3 id="544-addedit-sides">5.4.4 Add/Edit Sides<a class="headerlink" href="#544-addedit-sides" title="Permanent link">&para;</a></h3>
+<p>This function allows you to add sides to a game and edit their
+properties. Sides may be human, or computer controlled. A side's
+relationship with other sides is determined by its posture. Each side
+also has its doctrine which is part of the mechanism that governs its
+behavior.</p>
+<ul>
+<li>
+<p><strong>Add:</strong> Click "Add" and type a name for the side in the box that
+  opens. A new side will be added to the scenario</p>
+</li>
+<li>
+<p><strong>Remove</strong>: Select a side and click "Remove". This deletes all units
+  and missions for that side.</p>
+</li>
+<li>
+<p><strong>Rename</strong>: Select a side and click "Rename", Type in a new name in
+  the box that opens. The side will be renamed.</p>
+</li>
+</ul>
+<p><strong>Briefing:</strong> This opens a window to edit the briefing of
+the selected side.</p>
+<p><strong>Postures</strong>: This determines how each side interacts with
+other sides. The choices are Neutral, Friendly, Unfriendly, and Hostile.
+Select the side, then click "Postures", in the box that opens, select
+the desired posture from the drop-down menu. Posture choices:</p>
+<ul>
+<li>
+<p>Friendly: Sides will not fire on each other and share contact
+  information and air facilities.</p>
+</li>
+<li>
+<p>Neutral: Sides will not fire on each other and do not share sensor
+  information.</p>
+</li>
+<li>
+<p>Unfriendly: Sides will not fire each other but will intercept when on
+  patrol missions. They can conduct electronic warfare against each
+  other.</p>
+</li>
+<li>
+<p>Hostile: Sides will fire on each other and can conduct electronic
+  warfare against each other.</p>
+</li>
+</ul>
+<p><strong>Doctrine--RoE button</strong>: This sets the default Doctrine,
+RoE, and EMCON for a side. All existing and Lua-spawned units will
+inherit these settings unless changed by a mission, script, or manual
+selection. The editor can set these to be editable by players in game
+mode by checking off the Player Editable checkboxes.</p>
+<p><strong>Side is Computer-Only:</strong> If checked, this makes the side
+inaccessible to the player in normal play. This is typically used to
+designate the OPFOR side in a scenario and means that missions and tasks
+will have to be set for it before the scenario can be playable outside
+of ScenEdit.</p>
+<p><strong>Collective Responsibility:</strong> If checked the actions of
+one unit in a side will be treated as reflecting the entire side. If
+unchecked, it will not be. For example, with <strong>CR</strong> checked a unit from
+Side A being marked as hostile will cause all of Side A to be marked the
+same way, while designating that unit with CR unchecked will just change
+only that one unit.</p>
+<p><strong>Can Auto-Track Civilians:</strong> If checked, civilian and
+commercial units will automatically appear as visible to the side
+regardless of its awareness settings.</p>
+<p><strong>Awareness</strong>: This sets the side's level of awareness of
+the units in the scenario. Note that any unit may be set to be
+automatically detected and classified by the scenario author, regardless
+of this setting.</p>
+<ul>
+<li>
+<p>Normal: All units must be detected and classified using suitable
+  sensors.</p>
+</li>
+<li>
+<p>Auto Side ID: All units must be detected but the side identified upon
+  detection.</p>
+</li>
+<li>
+<p>Auto Side and Unit ID: All units must be detected but the unit's side
+  and unit type is provided upon detection.</p>
+</li>
+<li>
+<p>Omniscient: Similar to "God Mode" which reveals everything detectable.</p>
+</li>
+<li>
+<p>Blind: Nothing is revealed.</p>
+</li>
+</ul>
+<p><strong>Proficiency Settings:</strong> This sets the default
+proficiency for a side. There are five proficiency levels ranging from
+'Novice' to 'Ace', with 'Regular' as the default norm. The proficiency
+levels most visibly affect aircraft agility, with novice aircraft having
+only 30% of their nominal capability, veterans being able to equal the
+on-paper level exactly, and aces capable of even exceeding it.</p>
+<p>In addition to aircraft agility, proficiency also affects damage
+control, ability to fly at low altitudes without advanced avionics,
+ability to withstand g-forces during hard maneuvers, reaction time
+(extremely useful for engaging fast moving aircraft or missiles), and
+the accuracy of unguided weapons.</p>
+<p>Proficiency is inherently subjective and up to the player. There is no
+locking the player into select proficiencies for select countries.
+However, some possible guidelines are:</p>
+<ul>
+<li>
+<p>"<strong>Regular</strong>" as the default and as a backup in case all else fails or
+  a suitable choice cannot be found by the scenario author.</p>
+</li>
+<li>
+<p>"<strong>Cadet</strong>" as a nation with a poor historical record and/or a unit
+  new to battle. "<strong>Novice</strong>" as an even more extreme version of
+  "<strong>Cadet</strong>".</p>
+</li>
+<li>
+<p>"<strong>Veteran</strong>" as a nation/unit with decisive combat experience and/or
+  excellent training. "<strong>Ace</strong>" likewise as a similarly extreme side in
+  relation to <strong>"Veteran"</strong> in the opposite way as "<strong>novice</strong>" is to
+  "<strong>cadet</strong>".</p>
+</li>
+</ul>
+<p>Individual unit proficiency can be changed from the side norm via either
+the right-click on unit dialogue (see <strong>4.1.5 Scenario Editor:</strong> on page
+<a href="#scenario-editor">54</a>) under "scenario editor" or in the order of
+battle menu (see <strong>6.3.3 Order of Battle</strong> on page
+<a href="#order-of-battle">115</a>).</p>
+<p><em>Historical note: The unit proficiency symbolizes the disconnect between
+tactical and operational skill. Proficiency can swing marginal fights
+one way or another but is (generally) less important when one side or
+unit has a clear supremacy. Often, putting assets in the right place at
+the right time is more important than the exact performance of those
+assets.</em></p>
+<p><strong>Side Enablers:</strong></p>
+<p>Modern warfare is not "WW2 but with better weapons", and the comforts of
+post-Cold War COIN &amp; intervention / regime-change ops are no longer to
+be taken for granted. The GPS navigation systems guiding modern
+platforms and weapons will likely be disrupted <em>(in fact count yourself
+lucky if the satellite constellation above you survives)</em>, and the <a href="https://www.sto.nato.int/Lists/STONewsArchive/displaynewsitem.aspx?ID=571">BLOS
+comms</a> that
+forces rely upon for everything from cell-phone connectivity to <a href="https://www.twz.com/news-features/russian-shahed-136-with-camera-cellular-modem-could-be-a-big-problem-for-ukraine">drone
+control</a> may
+or may not be available, theater-wide or locally.</p>
+<p><strong>Side Enabler Function</strong></p>
+<p>A key side-related feature of Command is the concept and framework of
+"Side Enablers" <em>(aka "theater access options")</em>: Capabilities that act
+as force multipliers, enabling options for action -- or taking them off
+the table if they become unavailable.</p>
+<p>The most common enabler is access to satellite-based navigation,
+particularly with regards to weapon guidance (and more recently,
+autonomous operation of drones). GPS is of course the most commonly
+referred example, but GLONASS (Russia), BeiDou (China) and NavIC (India)
+are also other options.</p>
+<p>These enablers are available for configuration in Command when editing
+the properties of Sides in the Scenario Editor:</p>
+<p><img alt="A screenshot of a computer AI-generated content may be
+incorrect." src="../images/image72.jpeg" /></p>
+<p>Clicking the "Enablers" button brings up the available enablers for the
+selected side:</p>
+<p><img alt="A screenshot of a computer AI-generated content may be
+incorrect." src="../images/image73.png" /></p>
+<p>Checking or unchecking each checkbox enables or disables this capability
+for the selected side.</p>
+<p>Apart from the top Side-level, these enabler items are also configurable
+on a local basis. The idea here is that in many cases the ability (or
+lack thereof) to use a certain functionality may be restricted
+geographically; Starlink's "no Ukraine" geofencing for its LEO-BLOS
+comms service is a recent example, but another common case may be the
+localized jamming/spoofing of GPS on a town or frontline of interest.
+The reverse may also be true: A given service may be generally
+unavailable theater-wide but available on a specific area (local beacons
+for both PNT/GNSS and comms are rapidly proliferating; you can now fit
+some of them even on artillery shells).</p>
+<p>The way we model area-specific availability is through the area &amp;
+reference-points manager:</p>
+<p><img alt="" src="../images/image74.png" /></p>
+<p>By selecting a zone and clicking on the new "Enablers" button, we get
+access to the same menu of enabler options as on the side level.
+Embedding this ability on zones also allows taking advantage of all the
+nice properties already present in them, such as anchoring them on
+units, contacts or reference points.</p>
+<p>Given that the (non)availability of these services can be highly
+dependent on events happening during the sim execution (or player
+decisions), it makes sense that the enablers themselves are configurable
+also through Lua scripting. Here is an example of fetching the enablers
+for a given zone and modifying them:</p>
+<p>local s = VP_GetSide({name='side-A'})
+print(s)
+local z = s.standardzones
+local myz = s:getstandardzone(z[1].guid)
+print(myz.enablers)
+myz.enablers = {GNSS_GLONASS = true, GNSS_GPS = false}
+print(myz.enablers)</p>
+<p><strong>GNSS disruption implementation in Command</strong></p>
+<p>The first concrete implementation of the enabler's framework is, to
+no-one's surprise, GNSS disruption. This is a large topic of discussion
+in western defence circles as an acknowledged vulnerability, given that
+so many different weapon systems since Desert Storm have come to rely on
+GPS navigation for guidance -- and this trend has been also subsequently
+replicated in Russia, China &amp; India <em>(to our knowledge, the pan-European
+Galileo system has not yet been adopted as a guidance component on any
+fielded weapon system)</em>.</p>
+<p>GNSS disruption (in the form or jamming, spoofing or complete denial of
+service) is a huge and highly technical subject, but in the context of
+terminal weapons guidance its effects are fairly simple: It
+significantly increases the CEP figure of anti-surface weapons, thus
+significantly degrading their accuracy. Such weapons typically rely on
+an internal inertial navigation system (INS) which acts as the primary
+navigation reference, with the GNSS providing a regular correction to
+the INS's inevitable drift. If GNSS is denied, the weapon has to rely
+entirely on its INS for terminal guidance.</p>
+<p>When a weapon is denied a GNSS update, a "NOGNSS" warning is shown next
+to the weapon icon on the map, to indicate that this weapon is suffering
+from such degradation:</p>
+<p><img alt="" src="../images/image75.png" /></p>
+<p>When the weapon's impact is evaluated, the INS drift due to GNSS denial
+is taken into account and may significantly raise the final CEP value
+used in the impact evaluation. This is presented in the message log, as
+in this example:</p>
+<p><strong><em>&gt; 8/4/2017 10:08:14 -- Weapon: GBU-39/B SDB #993 has been without a
+GNSS update for 6 min 49 sec. Weapon has INS: 1990s+ tactical weapon
+INS. Max drift: 105m. Actual drift (CEP increase): 79m</em></strong></p>
+<p>Notice in this example the significant difference between max and actual
+drift: The max drift represents the maximum deviation from the DMPI if
+one assumes that all drift perturbations will cumulatively swing the
+weapon away from the aimpoint. A more (statistically) likely case is
+that the actual deviation will be somewhere between zero and max; in
+this case 79 meters.</p>
+<p>There is a popular misconception on public discourse, that GNSS
+disruption can instantly turn a weapon useless. This is a gross
+exaggeration. The actual effect of such degradation on a weapon's impact
+accuracy, and to its overall effectiveness, will strongly depend on the
+inherent accuracy of the weapon's INS system, the time the weapon spends
+in a degraded state (INS drifts with time, not distance covered), the
+weapon's warhead type and yield, as well as the type and physical
+dimensions of the aimed target.</p>
+<p>Some recent examples illustrating this:</p>
+<ul>
+<li>
+<p>According to persistent reports, <a href="https://www.twz.com/land/have-ground-launched-small-diameter-bombs-been-thrown-aside-by-ukraine">ground-launched SDB (GLSDB) bombs
+  have been ineffective in the Ukraine theater due to extensive GPS
+  jamming/spoofing</a>.
+  This makes sense for a weapon like SDB, whose penetrator-explosive
+  warhead is highly dependent on high accuracy (a near-miss does not
+  produce any proximity damage; it's direct-hit or bust); combined with
+  an increased flight time (i.e. more time to be exposed to GNSS
+  disruption, depending on the reach of enemy EM activity) this creates
+  ample opportunity to disrupt the weapon sufficiently to make it a
+  clean miss.</p>
+</li>
+<li>
+<p>On the same theater, GMLRS guided rockets have reportedly been highly
+  successful despite facing the very same jamming activity against them.
+  Why? The warheads of these rockets are area weapons (they disperse
+  bomblets) so a near miss usually is as good as a spot-on direct hit.
+  Additionally, their small flight time reduces the opportunity for
+  significant jamming and thus diversion. <em>(Reportedly air-launched
+  SDBs, the very same type as ground-launched by GLSDB, <a href="https://www.twz.com/air/cockpit-video-of-ukrainian-su-27-lobbing-gbu-39-small-diameter-bombs">have also been
+  a popular
+  weapon</a>.
+  Why? Presumably the shorter flight time compared to the
+  ground-launched variant makes for a sharply reduced window of
+  GNSS-jamming vulnerability.)</em></p>
+</li>
+<li>
+<p>High-velocity weapons in general have an inherent advantage in such
+  conditions because of the time-based drift on INS systems. This is an
+  additional reason that high-speed systems (incl. hypersonics) are a
+  popular avenue for research and development.</p>
+</li>
+</ul>
+<p><strong>Note #1:</strong> The current GNSS disruption model applies only to weapons
+that use INS+GNSS for terminal guidance (JDAM being the prime example),
+and NOT to weapons that combine INS+GNSS for mid-course guidance with
+homing sensors for terminal guidance (e.g. most modern cruise missiles).
+There are a number of reasons for this, incl. the complexity of
+representing "actual" vs "perceived" weapon position <em>(cue the "missile
+knows where it is" memes...), </em>as well as the fact that such systems use
+terminal homing precisely in order to compensate for mid-course guidance
+errors and thus are less susceptible to GNSS disruption.</p>
+<p><strong>Note #2: </strong>Currently there is no distinct field in the database to
+mark the INS performance level of each individual weapon. For this
+reason, a simple "deduction" algorithm is used, based on the weapon
+properties:</p>
+<ul>
+<li>
+<p>If the weapon is a guided gun round (e.g. Excalibur) or rocket (e.g.
+  GMLRS), assume it uses MEMS-based INS (Assumed drift: 5nm / hr.).</p>
+</li>
+<li>
+<p>Otherwise, if the weapon's maximum range is under 162NM, assume it
+  uses a "1990s+ tactical weapon"-grade INS (Assumed drift: 0.5 nm /
+  hr.)</p>
+</li>
+<li>
+<p>Otherwise for longer-range weapons, assume it uses a "1990s+
+  high-grade" INS (AIRS etc.) (Assumed drift: 0.05 nm / hr.)</p>
+</li>
+</ul>
+<p>The 162NM (300km) threshold is based on the MCTR regime rules, which
+treat missile weapons with a &gt;300km range as "strategic".</p>
+<p><strong>Switch To</strong>: This drop-down allows you to switch the
+view perspective in the editor to each side you have created.</p>
+<h3 id="545-edit-briefing">5.4.5 Edit Briefing<a class="headerlink" href="#545-edit-briefing" title="Permanent link">&para;</a></h3>
+<p>This function calls the edit briefing dialog which allows players to add
+text, pictures and links to the side briefings that appear for each side
+in the load scenario dialog and briefings dialog. You must switch sides
+using the editor switch to function to edit and add unique briefings for
+each side.</p>
+<p>Briefings can be either formal with the style of an actual military
+document such as the traditional American "five paragraph order", or
+informal. Whatever the format, they should include:</p>
+<ul>
+<li>
+<p>The units under the player's control.</p>
+</li>
+<li>
+<p>A less detailed description of units under enemy control (remember the
+  fog of war).</p>
+</li>
+<li>
+<p>The objective and rules of the scenario.</p>
+</li>
+</ul>
+<p>The briefings should be able to lay out the basic guidelines for the
+scenario player, so that they do not have to wander around confused
+wondering what to do (if the objective is to hit a set of fuel tanks,
+the player shouldn't waste time attacking air defense sites if they have
+limited resources, thus the briefing should mention that)</p>
+<h3 id="546-edit-scoring-dialog">5.4.6 Edit Scoring Dialog<a class="headerlink" href="#546-edit-scoring-dialog" title="Permanent link">&para;</a></h3>
+<p>This dialog allows editors to apply scoring evaluation to their
+scenarios that appears in the victory conditions dialog. Points can be
+scored or lost in the game by using the scoring event in the event
+editor. This dialog is then used to evaluate that scoring.</p>
+<p>To use:</p>
+<ol>
+<li>
+<p>Make sure the side you'd like to apply scoring to is selected in the
+    Switch To dialog.</p>
+</li>
+<li>
+<p>When the scoring dialog is open, enter high and low values in the
+    Triumph and Disaster fields. Be aware that a campaign (see <strong>5.4.3
+    Campaigns</strong> on page <a href="#campaigns">83</a>) will require reaching the set
+    pass score to progress to the next scenario in it.</p>
+</li>
+<li>
+<p>Make sure the numbers match the point total in the scoring events.</p>
+</li>
+</ol>
+<p>Note: Scoring overall is a hugely tricky situation. In many scenarios, a
+simple give and take of "destroy enemy units, gain points, lose friendly
+units, lose points" works fine.</p>
+<p>But for others, this isn't suitable. If the goal is to hit a certain
+high value target, that should take precedence over just trading blows.
+In extreme cases, hitting the target(s) alone can be the difference
+between success and failure. Hit it, get a triumph, lose it, get a
+disaster.</p>
+<p>The scoring system thankfully allows for more nuance between the two
+extremes. Something like 1,000 points for hitting the target, -100
+points for losing an aircraft, and 750 points being the line between
+minor victory and average allows for a bit of slack. Lose two aircraft,
+and the tradeoff for hitting the target is judged by the scenario
+designer to be worth it. Lose three and it's a little too much. Miss the
+target and it's an automatic failure.</p>
+<p>The relative value of units should be considered by the scenario author.
+If the units are supposed to be expendable, then there should be little
+to no penalty for their losses. Likewise, an irreplaceable unit can
+justifiably result in an automatic loss for the entire scenario. The
+time period can be considered for losses of line units-if the side in
+question has plenty of aircraft to spare, a wave of replacements, and a
+politically high tolerance for casualties, accomplishing the objective
+beats taking losses. The reverse is also true.</p>
+<p>Scoring can also be determined for pure gameplay reasons, even if it's
+not "historically accurate" per se. If the way to balance a scenario is
+to make one side's losses or kills worth a lopsided amount, that's a
+perfectly valid reason.</p>
+<h3 id="547-gods-eye-view">5.4.7 God's Eye View<a class="headerlink" href="#547-gods-eye-view" title="Permanent link">&para;</a></h3>
+<p>Provides an omniscient view of all units on all sides in the game.</p>
+<p>· This setting is useful for editors to see what is really going on
+while testing a scenario. Shifting from it to normal player views is
+used to provide an excellent contrast.</p>
+<p>· This setting also allows editors to create strike missions for targets
+that have not been detected but still need to be specified.</p>
+<p>· Keep in mind that this does not reflect what each player side sees at
+any time as they see things through often imprecise sensors.</p>
+<p><strong>Minefields</strong>: This drop-down menu allows editors to add and remove sea
+minefields.</p>
+<p>To add and mines to a designated area:</p>
+<ol>
+<li>
+<p>Make sure you have switched to the side you would like to deploy the
+    mines.</p>
+</li>
+<li>
+<p>Create and then select the reference points you would like to you
+    use to define the area you'd like the mines to be placed.</p>
+</li>
+<li>
+<p>Select Create minefield in designated area which launches the "add
+    mines in designated area" dialog.</p>
+</li>
+<li>
+<p>Choose the type you would like and how many (holding down the shift,
+    control, or both keys while will clicking will add more). Please
+    consider the depth of the water and the depth parameters the mines
+    can operate in prior to deploying. These are found in brackets after
+    their name in the dialog. The different types of mines vary
+    extensively in terms of both damage and sweepability, from basic
+    moored contact mines to lethal rising mines.</p>
+</li>
+<li>
+<p>When ready to add press the ADD button. The mines will be randomly
+    distributed based on area and water depth.</p>
+</li>
+</ol>
+<p>To remove mines from a designated area:</p>
+<ol>
+<li>
+<p>Select the reference points or drop and select new reference points
+    marking the area you'd like to remove mines from. Make sure that it
+    covers the entire minefield.</p>
+</li>
+<li>
+<p>Select remove mines from designated area in the Minefields drop down
+    menu.</p>
+</li>
+</ol>
+<h3 id="548-weather">5.4.8 Weather<a class="headerlink" href="#548-weather" title="Permanent link">&para;</a></h3>
+<p>This function allows editors to manipulate weather and sea conditions.</p>
+<p>Use this menu to manipulate weather conditions in the game. Simply slide
+the scales to manipulate average temperature, rainfall, sky (visibility)
+and wind/sea state conditions. These can be global or localized (<strong>7.3
+Reference Points</strong> on page <a href="#reference-points">161</a></p>
+<p>How weather impacts units in the game:</p>
+<p><strong>Temperature</strong> affects several sensors but primarily infrared ones.
+During the night, man-made and mechanical objects stand out more clearly
+against the background on infrared sensors. Conversely, during daytime
+(and particularly in hot climates) IR sensor range shrinks dramatically.
+Imaging sensors are less severely affected than older ones. Temperature
+differs from the "average" setting depending on region of the world-the
+equator is a lot warmer than the Arctic, obviously.</p>
+<p><strong>Rainfall</strong> affects both visual, IR and laser sensors. Visibility can
+shrink to as much as 1-5% of original range and similarly IR sensors are
+severely degraded by even light rain (e.g. in a rainstorm a Sidewinder
+may have an effective lock-on distance smaller than gun range).</p>
+<p><strong>Cloud coverage</strong> affects line-of-sight for visual and IR sensors.
+Light cloud coverage usually means scattered clouds at high altitude;
+aircraft can get under the cloud base and still visually acquire targets
+below, illuminate for LGBs etc. Thick cloud coverage means thick clouds
+at all altitudes; LGB guidance may be difficult or impossible unless the
+aircraft descends to low altitude, and spotting is likewise degraded.</p>
+<p><strong>Sea states</strong> affect primarily ship suitability (not currently
+modelled) and sonar performance. Surface ducting is useless in high
+waves and sonar ranges at or near the surface are severely degraded.
+High waves also raise the minimum safe altitude for low-flying aircraft.
+Sea state also affects the accuracy of naval gunfire, especially on
+lighter, more easily tossed vessels.</p>
+<h3 id="549-scenario-features-settings">5.4.9 Scenario Features + Settings<a class="headerlink" href="#549-scenario-features-settings" title="Permanent link">&para;</a></h3>
+<p>This dialog allows editors to set default realism settings for
+scenarios. Some features are locked and require owning a certain DLC to
+unlock.</p>
+<p><img alt="A screenshot of a computer screen Description automatically generated
+with medium
+confidence" src="../images/image76.png" /></p>
+<p>To select a setting just select a checkbox and click the apply button.</p>
+<p><strong>Detailed Gun Fire Control</strong>: When activated, guns have their Ph and
+CEP values realistically affected by the quality of their fire-control
+director and may altogether be incapable of firing if their sensors are
+blocked or knocked out. When disabled, guns can fire even without any
+director guiding them, and their accuracy is unaffected by sensor and
+weather limitations.</p>
+<p><strong>Unlimited magazines at air/naval bases</strong>: When activated, aircraft and
+ships now have unlimited ordnance at any port or airfield they deploy
+in. With this enabled, even if the magazine has one or zero specific
+missiles, a squadron of ten aircraft can all be deployed with a loadout
+of said missiles.</p>
+<p><strong>Aircraft Damage</strong>: When activated, aircraft are not immediately
+destroyed by any successful hit. Their survivability is highly dependent
+on both the weapon (light AAA is far weaker than a precise heavy SAM,
+and a modern fuze is better at inflicting damage than an older one) and
+the aircraft (Larger, multi-engine and/or more heavily armored aircraft
+are harder to destroy). A damaged aircraft that successfully returns to
+base will be down for repairs and thus take longer to ready than an
+undamaged one-often longer than the current length of the scenario.</p>
+<p>When disabled, aircraft are destroyed in one hit by anything.</p>
+<p><strong>Realistic Submarine Communications:</strong> When activated, submarines
+diving below periscope depth will go out of contact with the player (see
+<strong>12.6</strong> <strong>Comms Disruption &amp; Cyber Attacks</strong> on page
+<a href="#comms-disruption-cyber-attacks">291</a>). They can be returned by right
+clicking on the ghosted "last known location" icon and selecting "summon
+to reestablish comms."</p>
+<p>An ELF signal amounting to "Ok, you'd better come up now" is sent, and,
+if the coast is clear with no immediate threats, the submarine returns
+to antenna depth, sharing any contact information it gained while deeply
+submerged.</p>
+<p><strong>Effects Of Terrain Type:</strong> When activated, this allows for different
+terrain types to have their effect on unit movement, visibility, and
+resistance to blast effects (see <strong>3.1.1 The Globe Display</strong> on page
+<a href="#the-globe-display">12</a> for details). When deactivated, all types of
+terrain are treated similarly.</p>
+<p><strong>Effects of Terrain Type -- ADVANCED:</strong> This option enables the effect
+of the skyline of the local terrain as well as the height of the mast of
+a unit to affect visibility. With this enabled, many older scenarios may
+be broken if the terrain wasn't carefully checked prior to placement of
+units. Think of it terms of standing in the middle of a lot of
+skyscrapers with a pair of binoculars trying to see 'through' the
+buildings.</p>
+<p><strong>Communications Disruption</strong>: Enables comms disruption. See <strong>12.6</strong>
+<strong>Comms Disruption &amp; Cyber Attacks</strong> on page
+<a href="#comms-disruption-cyber-attacks">291</a>.</p>
+<p><strong>Weather Affects Ship Speed:</strong> When activated, bad weather will slow
+ships down and, in some cases, even trap them in a near-stationary
+"heave". Unsurprisingly, small ships are far more vulnerable to bad
+weather than large ones.</p>
+<p><strong>Allow instant loading for landing planner:</strong> This option allows for
+instant loading of units into vehicles when using the loading planner.</p>
+<p><strong>Weather and day/night affect aircraft sorties:</strong> Aircraft that are not
+suitably equipped (either built-in or through their loadout, e.g.
+LANTIRN pods) for flying at night or in bad weather, will not be able to
+take off. If such aircraft are already airborne when unsuitable
+conditions occur, they run a high risk of crashing on landing. This
+feature can easily break older scenarios, so be careful when and how it
+is employed.</p>
+<h3 id="5410-merge-scenario">5.4.10 Merge Scenario<a class="headerlink" href="#5410-merge-scenario" title="Permanent link">&para;</a></h3>
+<p>This fuses two scenarios into one. Scenario 1 acts as the 'foundation'
+which Scenario 2 is added to, and in the event of a conflict between a
+fundamental background characteristic like time or weather, Scenario 1
+is used.</p>
+<p>For DB match tolerance, the "exact DB option" (i.e. DB3000 v477) is
+ideal. The others are very risky.</p>
+<h2 id="55-events">5.5 Events<a class="headerlink" href="#55-events" title="Permanent link">&para;</a></h2>
+<p><strong>Event Editor</strong>: The event editor is a powerful tool that allows
+editors to give more variability to Command's Static AI and Editor's
+scenario storylines by introducing conditional and/ or random events
+into the timeline of a scenario. In COMMAND terms, events are actions
+that occur as a result of a trigger.</p>
+<p>You launch the event editor by clicking on Event Editor in the mission
+drop down and selecting Events from the dropdown. When you do so, the
+Event Editor dialog will launch the Events dialog.</p>
+<p><strong>Populated Event Dialog</strong></p>
+<p>The Events dialog includes a listing of all created events at the top
+and three function buttons at the bottom.</p>
+<p><img alt="" src="../images/image77.png" /></p>
+<p>The event listing displays each event's: description (name), if it is
+repeatable, if the event is active and the probability of the event
+occurring. These values are all set when creating the event.</p>
+<p>The function buttons are:</p>
+<p>· Create a new event: Launches the Edit Event dialog. See below for
+functionality.</p>
+<p>· Edit selected event: Selecting an even from the list and pressing this
+button opens the event in the edit event dialog for editing.</p>
+<p>· Delete selected Event: Selecting and event and pressing this button
+deletes it.</p>
+<p><strong>Creating an Event</strong>: As mentioned, events are actions that are the
+result of a trigger. So, we'll work through creating an event while
+describing each dialog used.</p>
+<p>First, click the <strong>Create New Event</strong> button which launches the Edit
+Event dialog. This dialog includes basic event parameters at the top and
+specific triggers and actions sections below.</p>
+<p>Events are constructed from actions and triggers, so it is best to build
+them first. You can do so by pressing the edit trigger or edit action
+buttons that are found at the bottom of their sections. You could also
+edit them independently from the event editor drop-down by selecting
+either Actions or Triggers. <strong>Once you have constructed the necessary
+actions and triggers, you can begin construction of your event in the
+Edit Event dialog</strong>.</p>
+<h3 id="551-actions">5.5.1 Actions<a class="headerlink" href="#551-actions" title="Permanent link">&para;</a></h3>
+<p>You create actions by clicking on the edit actions button, which brings
+you Event Actions Dialog. This dialog has a listing of all created
+actions at the top and all function buttons at the bottom.</p>
+<p><img alt="" src="../images/image78.png" /></p>
+<p><strong>To create a new action,</strong> you select the type from the drop-down menu
+at the bottom and press the Create New Action button which will launch
+the Edit Event action dialog, allowing you to construct the action and
+modify options and parameters. Descriptions of all are below.</p>
+<p><strong>To edit an existing action</strong>, select it from the list at the top and
+press the Edit Selected Action button, which opens the Edit Event Action
+dialog allowing you to modify the action options and parameters.</p>
+<p><strong>To delete an action</strong>, select it from the list at the top and press
+Delete Selected Action. Keep in mind that if you are using the action in
+an existing event, it will be deleted as well.</p>
+<p><strong>What are Actions?</strong></p>
+<p>Actions are the result of a trigger and may be used in many triggered
+events.</p>
+<p>To setting up actions, click on Editor &gt; Event Editor &gt; Actions. A
+window opens listing the existing possible actions and options to
+create, edit, or delete the selected action.</p>
+<p><strong>Action Types</strong>:</p>
+<p><strong>Points</strong>: This allows adding or subtracting points from a side's
+score. Be aware that other points will be</p>
+<ul>
+<li>
+<p>To use:</p>
+</li>
+<li>
+<p>Fill in a description of the action (ex. 100 Points to side Blue).</p>
+</li>
+<li>
+<p>Select a side that is to receive or lose the points.</p>
+</li>
+<li>
+<p>Add the Point change. Positive numbers to grant points and negative to
+  subtract (ex. -100).</p>
+</li>
+</ul>
+<p><strong>End Scenario</strong>: This action terminates the scenario. It is suggested
+that you add a message action prior to this letting the player know.</p>
+<p><strong>Teleport to Area</strong>: This is used to teleport units to within a
+reference designator defined area. This can be used to simulate the
+arrival of reinforcements.</p>
+<p>To use:</p>
+<ul>
+<li>
+<p>Make sure you drop some reference points to mark the area the units
+  will be teleported to. Select/activate them and make sure other
+  reference points are deselected. The units will appear at a random
+  point in the area, so keep that in mind when making or selecting them.</p>
+</li>
+<li>
+<p>Launch the event editor and add action</p>
+</li>
+<li>
+<p>Type in a description (for example, "1st platoon lands at airport").</p>
+</li>
+<li>
+<p>Click on "add points currently highlighted" to set the teleport area.</p>
+</li>
+<li>
+<p>Select the units you would like moved. They are selected when
+  highlighted in blue.</p>
+</li>
+<li>
+<p>Click the OK button.</p>
+</li>
+</ul>
+<p><strong>Message</strong>: Creates a popup message with user-defined content. Please
+remember to tell players to activate their special message popup option
+in their Game Log message options to see this as a popup rather than a
+less visible entry in the game log.</p>
+<p>To use:</p>
+<ul>
+<li>
+<p>Fill in a description of the message (like "Blue side war warning").</p>
+</li>
+<li>
+<p>Use the drop-down to select the side that will see it.</p>
+</li>
+<li>
+<p>Use the text box to type the message you would like displayed.</p>
+</li>
+<li>
+<p>Click the OK button when complete.</p>
+</li>
+</ul>
+<p><strong>Change Mission Status</strong>: Sets a mission to active or inactive. This
+action is designed to be used with the mission status field in the
+mission editor. Please be sure do set the mission status
+(active/inactive) to the status you'd like the mission to have a
+scenario start.</p>
+<p>To use:</p>
+<ul>
+<li>
+<p>Add a description of the action (such as "Activate Blue AAW Patrol").</p>
+</li>
+<li>
+<p>First select a side from the Side drop-down and then a mission from
+  mission drop-down.</p>
+</li>
+<li>
+<p>Click the New Status drop-down and select a status.</p>
+</li>
+<li>
+<p>Click OK.</p>
+</li>
+</ul>
+<p><strong>Lua:</strong> Activates a Lua script. The Lua script must be manually entered
+to the action console by the scenario, although prepackaged template
+options are set for non-coders. For information on specific Lua scripts,
+see <strong>5.3 Lua</strong> on page <a href="#lua">78</a>.</p>
+<h3 id="552-special-actions">5.5.2 Special Actions<a class="headerlink" href="#552-special-actions" title="Permanent link">&para;</a></h3>
+<p>Special Actions have a Lua input. Mechanically, they are identical to
+"normal" Lua actions but can be activated on cue by the player. For how
+to activate them in normal game mode, see 6.3.10, Special Actions.</p>
+<p><img alt="" src="../images/image79.png" /></p>
+<p>For scenario creators, special actions come in two forms: Functional and
+tactical. "Functional" special actions exist for the sake of providing a
+service to the scenario player, like replaying special messages,
+delivering weather reports, deploying a unit (with no guarantees for its
+safety once it <em>is</em> deployed), and the like.</p>
+<p>Tactical special actions are things like "attempt to use irregulars to
+destroy an enemy SAM site" or "request additional missiles from
+storage". Tactical special actions should have either a sort of balance
+(i.e. you get reinforcements, but so does your opponent) or a potential
+outcome that ends badly for the side triggering it to prevent the player
+from just constantly choosing them, knowing there's no downside to
+pressing the button.</p>
+<h3 id="553-triggers">5.5.3 Triggers<a class="headerlink" href="#553-triggers" title="Permanent link">&para;</a></h3>
+<p>Triggers initiate events. A trigger can be used to initiate multiple
+events; however, each event must be set up separately. Triggers are
+created by selecting the Edit Trigger button which launches the Event
+Trigger dialog.</p>
+<p><img alt="" src="../images/image80.png" /></p>
+<p>1. To create a new trigger, you would select the type from the
+drop-down menu at the bottom and press the <strong>Create New Action</strong> button
+which will launch the edit event trigger dialog allowing you to
+construct the trigger and modify options and parameters.</p>
+<p>2. To edit an existing trigger, select it from the list at the top and
+press <strong>Edit Selected Trigger</strong>, which calls the edit event trigger
+dialog allowing you to modify the action options and parameters.</p>
+<p>3. To delete a trigger select it from the list at the top and press
+Delete Selected Trigger. Keep in mind that if you are using the trigger
+in an existing event, it will be deleted as well.</p>
+<p><strong>Trigger Types:</strong></p>
+<ul>
+<li>
+<p><strong>Unit Destroyed</strong>: Trigger occurs when the specified unit is
+  destroyed.</p>
+</li>
+<li>
+<p><strong>Unit Damaged</strong>: Trigger occurs when a specified unit or class of
+  units</p>
+</li>
+<li>
+<p><strong>Unit Enters Area</strong>: Trigger occurs when the specified unit enters an
+  area defined by reference points. An option exists where a window of
+  time may be specified such that the unit must enter the area within
+  that time window to cause the trigger to activate.</p>
+</li>
+<li>
+<p><strong>Unit Remains In Area</strong>: Trigger occurs when the specified unit
+  remains in an area defined by reference points for a specified amount
+  of time. The time is reset if the specified unit leaves the area for
+  any reason.</p>
+</li>
+<li>
+<p><strong>Time</strong>: The trigger occurs when the game time reaches a specified
+  time. An effect similar but not identical to "Scenario is Loaded" can
+  be achieved by setting the event to trigger at a time one second after
+  the scenario is set to start (i.e. if the scenario is set to start at
+  3:00:00 UTC, the trigger is set for 3:00:01.)</p>
+</li>
+<li>
+<p><strong>Random Time</strong>: The trigger occurs at a random time within a user set
+  interval.</p>
+</li>
+<li>
+<p><strong>Unit Is Detected</strong>. The trigger occurs when a certain unit is
+  detected by a certain side. Options range from any aircraft/ship to a
+  specific unit name being positively identified.</p>
+</li>
+<li>
+<p><strong>Side Points:</strong> The trigger occurs when the designated side's points
+  either exceed, matches, or falls under the specified number of points.</p>
+</li>
+<li>
+<p><strong>Scenario is loaded</strong>. The trigger occurs the moment the scenario is
+  loaded.</p>
+</li>
+<li>
+<p><strong>Scenario Ends</strong>. The trigger occurs when the scenario ends.</p>
+</li>
+<li>
+<p><strong>Regular Time</strong>. The trigger fires every set interval (a dialogue
+  opens, and it can be anything from a second to a day.)</p>
+</li>
+</ul>
+<p><strong>Triggers Associated with Units</strong></p>
+<p>The "<strong>Unit Destroyed</strong>", "<strong>Unit Damaged</strong>", "<strong>Unit Enters Area</strong>",
+and "<strong>Unit Remains In Area</strong>" triggers can be linked to units in a
+hierarchal fashion from a type of unit down to a specific unit. These
+types, below, are set when the trigger is created:</p>
+<p><strong>TARGET SIDE:</strong> Designates the side the trigger will generate from.</p>
+<p><strong>TARGET TYPE</strong>: Designates the type of unit. If any of the designated
+type of unit experiences the trigger criteria, then the trigger is
+activated. Unit types are:</p>
+<ul>
+<li>
+<p>Aircraft</p>
+</li>
+<li>
+<p>Surface Ship</p>
+</li>
+<li>
+<p>Submarine</p>
+</li>
+<li>
+<p>Land Facility</p>
+</li>
+<li>
+<p>Land Unit</p>
+</li>
+<li>
+<p>Weapon</p>
+</li>
+<li>
+<p>TARGET SUBTYPE [DDG]</p>
+</li>
+<li>
+<p>TARGET CLASS [Arleigh Burke Class Destroyer]</p>
+</li>
+<li>
+<p>SPECIFIC UNIT [USS Arleigh Burke]</p>
+</li>
+</ul>
+<p><strong>Triggers Associated with an Area</strong></p>
+<p>Some triggers have an area associated with them which are defined with
+reference points. The reference points defining the area should be
+selected prior to creating the trigger that uses them. The reference
+points used to define the area can be changed in the trigger edit dialog
+box.</p>
+<h3 id="554-setting-up-triggers">5.5.4 Setting up Triggers<a class="headerlink" href="#554-setting-up-triggers" title="Permanent link">&para;</a></h3>
+<p>Click on <strong>Editor &gt; Event Editor &gt; Triggers</strong>. The "<strong>Event
+Triggers</strong>" dialog box opens listing the existing triggers and options
+to create, edit, or delete Triggers. Scroll down the pull-down listing
+at the bottom of the box and pick a trigger type then click "<strong>Create
+New Trigger</strong>". The "Edit Event Trigger" dialog box is displayed.</p>
+<p>NOTE: Triggers with areas defined by reference points associated with
+them should have the reference points already selected when creating the
+trigger.</p>
+<p><strong>Unit Destroyed</strong>:</p>
+<ol>
+<li>
+<p>Type in a description for the trigger.</p>
+</li>
+<li>
+<p>Select the Side and desired unit settings from the drop-down
+    listings. These should be done from the top down since the
+    subsequent available selections often depend on what is selected
+    above it. If the trigger is going to apply to all types, then the
+    subsequent selections should be left as "None". The same is true if
+    selecting a subtype or class.</p>
+</li>
+</ol>
+<p><strong>Unit Damaged</strong>:</p>
+<ul>
+<li>
+<p>Type in a description for the trigger.</p>
+</li>
+<li>
+<p>Select the Side and desired unit settings from the drop-down listings.
+  These should be done from the top down since the subsequent available
+  selections often depend on what is selected above it. If the trigger
+  is going to apply to all types, then the subsequent selections should
+  be left as "None". The same is true if selecting a subtype or class.</p>
+</li>
+</ul>
+<p><strong>Unit Enters Area</strong>: The reference points defining the area should be
+selected prior to opening the Event Triggers dialog box.</p>
+<ul>
+<li>
+<p>Type in a description for the trigger.</p>
+</li>
+<li>
+<p>Select the side and desired unit settings from the drop-down listings.
+  These should be done from the top down since the subsequent available
+  selections often depend on what is selected above it. If the trigger
+  is going to apply to all types, then the subsequent selections should
+  be left as "None". The same is true if selecting a subtype or class.</p>
+</li>
+<li>
+<p>Designate the earliest time the trigger can occur. If the designated
+  unit(s) enter the area prior to the designated earliest time, the
+  trigger will not activate.</p>
+</li>
+<li>
+<p>Designate the latest time the trigger can occur. If the designated
+  unit(s) enter the area after the designated latest time, the trigger
+  will not activate.</p>
+</li>
+<li>
+<p>Modifier: Modifies the trigger to a "Unit Leaves Area" trigger if
+  checked.</p>
+</li>
+<li>
+<p>Verify the correct reference points are assigned to the trigger.
+  Reference points may be added later after creating the trigger,
+  removing reference points may be done at this time. At least three
+  reference points must always remain.</p>
+</li>
+<li>
+<p>Select OK to create the trigger.</p>
+</li>
+</ul>
+<p><strong>Unit Remains In Area</strong>: The reference points defining the area should
+be selected prior to opening the Event Triggers dialog box.</p>
+<p>1. Type in a description for the trigger.</p>
+<p>2. Select the side and desired unit settings from the drop-down
+listings. These should be done from the top down since the subsequent
+available selections often depend on what is selected above it. If the
+trigger is going to apply to all types, then the subsequent selections
+should be left as "None". The same is true if selecting a subtype or
+class.</p>
+<p>3. Designate the amount of time the unit must remain in the area. Note
+that if the unit exits the area, the timer will reset.</p>
+<p>4. Verify the correct reference points are assigned to the trigger.
+Reference points may be added later after creating the trigger, removing
+reference points may be done at this time. At least three reference
+points must always remain.</p>
+<p>5. Select OK to create the trigger.</p>
+<p><strong>Side Points</strong>: Type in a description for the trigger. This trigger may
+be used to set victory or defeat in a game.</p>
+<p>1. Select the side the trigger applies to.</p>
+<p>2. Enter the number of points and select whether the trigger occurs
+when the accumulated points for that side either exceeds, reaches
+exactly, or falls under the specified points.</p>
+<p>3. Verify the correct reference points are assigned to the trigger.
+Reference points may be added later after creating the trigger, removing
+reference points may be done at this time. At least three reference
+points must always remain.</p>
+<p>4. Select OK to create the trigger.</p>
+<p><strong>Time</strong>: Type in a description for the trigger. Set the date and time
+the trigger should occur. This trigger occurs when the game clock meets
+the designated time. Select OK to create the trigger.</p>
+<p><strong>Random Time</strong>: Type in a description for the trigger.</p>
+<p>1. Set the date/time range within which the trigger should occur.</p>
+<p>2. Press the "Set Random Time" button.</p>
+<p>3. Select OK to finish creating the trigger.</p>
+<h3 id="555-constructing-an-event">5.5.5 Constructing an Event<a class="headerlink" href="#555-constructing-an-event" title="Permanent link">&para;</a></h3>
+<p>Once you have completed the Actions and Triggers necessary for your
+event to work, you can begin creation of the event itself in the Edit
+Event dialog.</p>
+<p>1. Give the event a name by populating the Description field with text.</p>
+<p>2. Select the Event is repeatable check box if you'd like the event to
+repeat.</p>
+<p>3. Enter a 1-100 numeric value chance of the event occurring in the
+Probability field.</p>
+<p>4. Next go to the trigger section at the top and select the trigger you
+created from the drop-down and press the Add trigger button next to it,
+which will populate the trigger list above.</p>
+<p>5. Next, go down to the Actions section at the bottom, select the
+action you created from the drop-down list, and press the Add Action
+button, which will populate the Action List with your chosen action.</p>
+<p>6. If you'd like to make any edits to the actions or the triggers you
+can press the Edit Action or Edit Triggers button in their related
+sections which will launch their edit dialogs.</p>
+<p>7. If you'd like to remove a trigger or action select them in their
+lists and press the Remove Selected buttons in the appropriate section.</p>
+<p>8. Press the OK button on the left to save your work and complete the
+process. Your new event should now appear in the events dialog.</p>
+<h2 id="56-scenario-batch-rebuilder-sbr">5.6 Scenario Batch-Rebuilder (SBR)<a class="headerlink" href="#56-scenario-batch-rebuilder-sbr" title="Permanent link">&para;</a></h2>
+<p>This allows functions of the Scenario Batch Rebuilder to be accessed.</p>
+<p><strong>Generate Template:</strong> This generates a basic configuration template for
+the scenario. See 8.8, Scenario Config Template Files for more details.</p>
+<p><strong>Generate Delta Template:</strong> This generates an advanced delta template
+for the scenario, essential for deep rebuild database updates.</p>
+<p><strong>Apply SBR Script:</strong> This applies an existing SBR script to the
+scenario. See 8.9, Editing Scenario Config Files, for more details.</p>
+<h2 id="57-unit-actions">5.7 Unit Actions<a class="headerlink" href="#57-unit-actions" title="Permanent link">&para;</a></h2>
+<p>This allows actions concerning individual units to be taken.</p>
+<h3 id="571-add-a-unit">5.7.1 Add a Unit<a class="headerlink" href="#571-add-a-unit" title="Permanent link">&para;</a></h3>
+<p>This function allows users to add a unit to a scenario. It can also be
+called from the ctrl + right click drop down menu.</p>
+<p><img alt="" src="../images/image81.png" /></p>
+<p>To add a unit:</p>
+<ul>
+<li>
+<p>Make sure you have the side you want to add a unit to selected in the
+  "<strong>Switch</strong>" to menu.</p>
+</li>
+<li>
+<p>Select <strong>Add Un</strong>it from the Editor drop down and click a point on the
+  map you'd like to place the unit. Please be sure that the place you
+  selected to drop the unit you would like matches terrain suitable for
+  the type (ships in water, buildings on land).</p>
+</li>
+<li>
+<p>Choose Type using the Type drop down. Your options are aircraft,
+  ships, submarine and facility. Notice when you do so that your pick
+  list on the bottom of the list switches to match your chosen type.</p>
+</li>
+<li>
+<p>Side should be the side you are set to, but you could change it with
+  this drop down. If you wish to add a side on the fly, click the Edit
+  button which will launch the Add/Edit Side Dialog.</p>
+</li>
+<li>
+<p>The Name field allows you to name the unit by deleting the default
+  text and typing it what you would like.</p>
+</li>
+<li>
+<p>There are filter options to assist you in finding units to add:</p>
+</li>
+<li>
+<p>Filter By Class Field: Typing in this field filters items based on
+    what you type.</p>
+</li>
+<li>
+<p>Filter By Country Drop Down: You can filter by country by selecting
+    a country from the drop-down list.</p>
+</li>
+<li>
+<p>Filter By Hypothetical. You can filter by whether or not the unit is
+    a historical or hypothetical one by selecting one of the three
+    options from the drop-down list.</p>
+</li>
+<li>
+<p>Filter by Name (Alphabetically) You can filter alphabetically by
+    click on the name Platform column. This arranges units by name
+    alphabetically from a to z or z to a.</p>
+</li>
+<li>
+<p>Filter by Country (alphabetically): You can filter alphabetically by
+    country by clicking on the country at the top of its column. This
+    will filter by country alphabetically from A to Z or Z to A.</p>
+</li>
+<li>
+<p>Filter by From Date: Selecting From at the top of this column allows
+    you to order by in service date.</p>
+</li>
+<li>
+<p>Filter by Until Date: Selecting Until from the top of its column
+    allows you to order by out of service date.</p>
+</li>
+</ul>
+<p>When you find the unit you would like to add, select it by clicking on
+it and press the OK button. If it's a ship or facility it will be added
+to the map. If it's an aircraft, you will have to select a loadout and
+click ok.</p>
+<p>The filter figures are there merely for reference and do not contain any
+limiters. Thus, the player can easily add in ahistorical units ranging
+from the plausible (Iowa battleships to a side called "US" in a
+mid-1990s extended Cold War scenario) to the impossible (F-22s to a side
+called "Bhutan" or "The Legendary Super-Duper Force" in 1981).</p>
+<p>This also enables units of the same type to be used as stand-ins for
+ones another country used but that are not in the database list for the
+country in question. For example, a Mozambican MiG-21bis (not in the
+database in the time of this writing) can be represented by an Angolan
+one.</p>
+<h3 id="572-add-satellites">5.7.2 Add Satellites<a class="headerlink" href="#572-add-satellites" title="Permanent link">&para;</a></h3>
+<p>This menu allows users to add Satellites to scenarios. It is currently
+auto-filtered to only display satellites currently in orbit in relation
+to the current time value you have set.</p>
+<p><img alt="" src="../images/image82.png" /></p>
+<p><strong>To Add a Satellite</strong>:</p>
+<p>· Make sure the side you'd like to add them to are selected, and select
+<strong>Add Satellite</strong> from the editor drop-down, which will launch the <strong>Add
+Satellite</strong> dialog.</p>
+<p>· To add a satellite to a scenario work through the nation, type, and
+model drill down lists and select the checkbox of the satellite you
+would like to add.</p>
+<p>· Press the <strong>Add Satellite</strong> button when complete and it will appear on
+the GUI.</p>
+<p><strong>To Delete a Satellite</strong>:</p>
+<p>Select the unit on the game map and press the D key to delete it.</p>
+<p><img alt="" src="../images/image83.png" /></p>
+<h3 id="573-edit-aircraft">5.7.3 Edit Aircraft<a class="headerlink" href="#573-edit-aircraft" title="Permanent link">&para;</a></h3>
+<p>This function allows you to add aircraft to any facility or group that
+can accommodate them by calling the Edit Aircraft dialog. The current
+inventory of aircraft hosted on a unit are displayed on the left and the
+edit aircraft functions and pick list are on the right.</p>
+<p><strong>How to add an aircraft to unit or group</strong>:</p>
+<p>1. Select the unit, group, facility or air base you would like to add
+aircraft too and select Edit AC in the editor drop down which will
+launch the Edit AC dialog. Please consider the amount of storage the
+unit has and runway lengths. The game does filter as best as it can but
+there are hybrid units that don't always fit the mold.</p>
+<p>2. As in the Add Unit dialog you can filter by: Class Name, Country,
+Aircraft Name, Aircraft Country, From Date and Unit Date.</p>
+<p>3. Select the aircraft that would like by selecting on it in the unit
+listing.</p>
+<p>4. Callsign: This is an editable text field that allows you to give
+nicknames to units. The callsigns can be purely descriptive (i.e.
+"40^th^ Fighter Regiment #1, #2, etc....) or more whimsical nicknames
+(i.e. a group of F-15Js going by the callsign Tengu #1, #2). To avoid
+confusion, no two "batches" of aircraft should have the same callsign,
+especially if they stage from different bases.</p>
+<p>5. How Many: Enter a numeric value for the number of aircraft you would
+like to add.</p>
+<p>6. Press the Add Selected button when complete.</p>
+<p><strong>Removing aircraft from a group or unit</strong></p>
+<p>1. Select the units you would like to remove from the current inventory
+list on the right. When you do so notice that Remove Selected button has
+appeared.</p>
+<p>2. Set the number of units you would like to remove in the quantity
+field and click apply.</p>
+<p>3. Click the Remove Selected buttons to remove the unit</p>
+<h3 id="573-addremoving-a-boat-or-submarine">5.7.3 Add/Removing a boat or submarine<a class="headerlink" href="#573-addremoving-a-boat-or-submarine" title="Permanent link">&para;</a></h3>
+<p>1. Select the vessel you would like to host the boat or submarine and
+select Edit Docked Boats from the editor drop down which launches the
+edit docked boats dialog.</p>
+<p>2. Use the type, class, country filters to display a list of possible
+units to host.</p>
+<p>3. Select the unit you would like by selecting it in the pick list.</p>
+<p>4. Add the number you wish to add in the How Many field.</p>
+<p>5. Click the Add Selected button to add them. They should now appear in
+the current inventory list on the right.</p>
+<p><strong>To remove a boat or submarine</strong>:</p>
+<p>1. Select the units you would like to remove from the current inventory
+list on the right. When you do so notice that Remove Selected button has
+appeared.</p>
+<p>2. Set the number of units you would like to remove in the quantity
+field and click apply.</p>
+<p>3. Click the Remove Selected buttons to remove the unit</p>
+<h3 id="574-edit-docked-boats">5.7.4 Edit Docked Boats<a class="headerlink" href="#574-edit-docked-boats" title="Permanent link">&para;</a></h3>
+<p>This function allows editors to add boats or submersibles/UUV's to
+facilities or boats capable of hosting them. When launched the Edit
+Docked Boats dialog displays the current inventory of units already
+hosted on the vessel on the left and filters and a picklist to add boats
+on the right. This list is already filtered to display ships that fall
+within the correct size limitations to be hosted.</p>
+<p><img alt="A screenshot of a computer Description automatically
+generated" src="../images/image84.png" /></p>
+<h3 id="575-remove-all-units-of-the-side">5.7.5 Remove All Units of the Side<a class="headerlink" href="#575-remove-all-units-of-the-side" title="Permanent link">&para;</a></h3>
+<p>Deletes all units for selected side. Be careful as there is no undo.</p>
+<h3 id="576-edit-cargo">5.7.6 Edit Cargo<a class="headerlink" href="#576-edit-cargo" title="Permanent link">&para;</a></h3>
+<p>This function allows you to add cargo to a suitable unit.</p>
+<p><img alt="" src="../images/image85.png" /></p>
+<p><strong>To load an appropriate unit with cargo</strong>:</p>
+<p>1: Check the DB viewer to see if it contains a cargo capacity. Cargo is
+limited by mass, area, and crew-a giant LST or Il-76 can hold what a
+C-130 or small boat cannot. Edit Cargo can also be used on airbases.</p>
+<p>2: Click on the unit, then go to Editor/Unit Actions/Edit Cargo</p>
+<p>3: Select the mobile land unit to add in the "database", then go to the
+bottom left corner. Use the numeric counter to determine the quantity of
+the unit, then press "Load Selected".</p>
+<p>4: Press "OK" in the bottom right corner to save the changes.</p>
+<p>5: The "Cargo" button should appear on the unit sidebar. Clicking on
+it reveals how much mass, area, and crew the parent unit is holding, as
+how much spare capacity it has left.</p>
+<p>6: Repeat as necessary.</p>
+<p>7: For air cargo, make sure to both add suitable cargo to the airbase,
+and load specifically desired ones onto the individual aircraft if
+necessary.</p>
+<p><img alt="" src="../images/image86.png" /></p>
+<h3 id="577-other-editor-functions">5.7.7 Other editor functions<a class="headerlink" href="#577-other-editor-functions" title="Permanent link">&para;</a></h3>
+<p><strong>Copy Unit</strong>: Many units of the same type and load-out may be placed by
+selecting an existing unit and pressing the hotkey "C" then clicking on
+the map to place a copy of the selected unit.</p>
+<p><strong>Clone Unit:</strong> As with "Copy Unit", only Shift+C is used to make a more
+exact "clone" of the unit in question.</p>
+<p><strong>Move Unit</strong>: To move a unit on the map, select the unit then press the
+hotkey "M" then click on the map the desired new location for the unit.</p>
+<p><strong>Rename Unit:</strong> Selecting this or pressing "R" after selecting a unit
+opens a dialog where the unit can be renamed.</p>
+<p><strong>Delete Unit</strong>: Select the unit or group and press the "DEL" key.</p>
+<p><strong>Set Fuel QTY and Airborne Time:</strong> Accessible for air units, this
+allows their fuel quality and time airborne (for the sake of things like
+quick turnaround calcs) at the start of the scenario to be set. An
+"automatically adjust fuel" option can be checked, which sets it at the
+optimum amount for the current altitude plus a 10% reserve.</p>
+<p><strong>Unit is auto-detectable:</strong> If checked<strong>,</strong> the unit can be seen
+without being in range of a sensor. This is generally off by default for
+mobile units and on for fixed units such as buildings.</p>
+<p><strong>Set Orientation</strong>: Allows you to adjust the unit facing. This is
+crucial for land units that have sensors with a limited arc like the
+radars on Patriot missile batteries. To use, simply move the slider bar
+to match your desired bearing.</p>
+<p><strong>Hold Position:</strong> This instructs a selected land unit to stop and stay
+in its current position.</p>
+<p><strong>Remove All Units (Of This Side):</strong> This deletes all units in the
+current side.</p>
+<p><strong>Remove All Contacts (Of This Side):</strong> This deletes all contacts
+visible by the current side. It does not remove the actual units, only
+the contacts.</p>
+<p><strong>Scenario Attachments:</strong> This allows overlays, Lua scripts, local
+videos/sound, or installation imports to be attached to a scenario or
+removed. The attachments can then be used via a "ScenEdit_UseAttachment"
+Lua script.</p>
+<h3 id="578-publish-scenario-to-steam-workshop-steam-only">5.7.8 Publish Scenario to Steam Workshop (Steam only)<a class="headerlink" href="#578-publish-scenario-to-steam-workshop-steam-only" title="Permanent link">&para;</a></h3>
+<p>Obviously only accessible in the Steam version of COMMAND, this allows a
+scenario to be placed in the Steam Workshop. The process is very simple.</p>
+<p>-Open the desired scenario in ScenEdit mode and ensure it's in a
+satisfactory condition.</p>
+<p>-Select the "Publish Scenario to Steam Workshop" option from the editor
+drop-down menu.</p>
+<p>From here, either an external preview image can be loaded via "Select
+Preview Image", or an in-game screenshot of the current camera can be
+used via "Use Screenshot". Once the preview image is determined, simply
+press Publish New Item and the scenario will be uploaded.</p>
+<p>Other players with the Steam version can obtain the scenario by
+accessing the COMMAND Steam Workshop, locating the scenario, and
+pressing the subscribe button. A download/update will ensue, and the
+next time the Steam version of COMMAND is launched, the scenario will
+appear in a special tab on the scenario load dialog (see <strong>2.2.1
+Starting COMMAND</strong> on page <a href="#starting-command">9</a>) for easy access.</p>
+<p>Published scenarios can be updated or changed by pressing the "Update
+Existing Workshop Item" button. The changed scenario will then be
+transmitted to all subscribers.</p>
+<p><strong>Package Scenario For Distribution:</strong> This bundles the scenario and all
+selected attachments together in one zip file for easy identification
+and loading by end users.</p>
+<h2 id="58-importexport-units">5.8 Import/Export Units<a class="headerlink" href="#58-importexport-units" title="Permanent link">&para;</a></h2>
+<p>The import/export unit function is one of the most powerful tools in the
+game. It allows editors to save/export selected units and groups to a
+file and then import them into other scenarios at a later date or shared
+with other edits.</p>
+<p>We have already prepopulated thousands of these files so that many of
+the airbases, air defense system or historical battlegroups might
+actually be there -- saving you time and effort.</p>
+<p><strong>Save selected units/groups to a file - Creating import files</strong></p>
+<p>1. Select a unit or drag select multiple units and groups you would
+like to save so they are highlighted and then select save selected
+units/groups to a file from the editor&gt;import/export units drop-down.
+This will launch the Export units/groups to a file dialog.</p>
+<p>2. Fill in the Name, Valid From, Valid Until and Notes text fields if
+you'd like.</p>
+<p>3. Press the Save button which will launch the Save As dialog.</p>
+<ol>
+<li>Give the file a meaningful text name and when press the Save button.
+    By default, it will be given an .inst file extension and saved to
+    the import/export folder in your command directory.</li>
+</ol>
+<p><img alt="" src="../images/image87.png" /></p>
+<p>It is now possible in COMMAND to save a group of units as a template,
+this allows you to place several copies of it when importing it without
+sharing the same GUID numbers. This is very useful to create a baseline
+formation and then use the import feature to create several copies of
+the same formation.</p>
+<p><strong>Load units/Groups from File - Importing</strong></p>
+<p>Selecting load units/groups from file editor&gt;import/export units
+drop-down will launch the Load Group(s) from File dialog. The left side
+is a hierarchal listing of all folders and files in the import/export
+directory. The right side displays the information you entered when you
+created the file and a list of all group members.</p>
+<p><strong>To add units to your scenario</strong>:</p>
+<ul>
+<li>
+<p>First find the unit or group you would like to add from the import
+  listing on the left. You can open up the lists by clicking the + signs
+  next to them to expose the files within folders.</p>
+</li>
+<li>
+<p>You must be sure to match the import with the database you are
+    using. We have marked all folders that contain cold war database
+    files as CWDB and then their names. All others are DB3k files.</p>
+</li>
+<li>
+<p>You must be wary of duplicates as well. It is likely that the
+    creator of the 1967 SAM site File used it to build the 1973 SAM site
+    file and if you add both you'll get a duplicate key error message.
+    If for some reason this is unavoidable just click okay and the
+    duplicate will be skipped.</p>
+</li>
+<li>
+<p>Next mark the files you wish to import by selecting the open
+  checkboxes next to them. If you'd like to select anything in a folder
+  select the open checkbox next to it which will all select all folders
+  and files under it.</p>
+</li>
+<li>
+<p>To import click the Load selected installation button which will
+  populate the units for the selected side on the UI.</p>
+</li>
+<li>
+<p>To delete them you would have drag select and delete as you would a
+  unit or group added any other way.</p>
+</li>
+</ul>
+<p><strong>Lua Script Console:</strong> This opens a console where Lua scripts can be
+entered and run, either for the sake of testing or for the sake of
+scenario building (i.e. using "ScenEdit_Addunit" to put a specific unit
+in a very specific place). Different parts are color coded to enhance
+readability.</p>
+<p><img alt="" src="../images/image88.png" /></p>
+<p>Existing .lua files can be loaded into the console using the file/open
+key.</p>
+<h2 id="59-benchmark-mode">5.9 Benchmark Mode<a class="headerlink" href="#59-benchmark-mode" title="Permanent link">&para;</a></h2>
+<p>The benchmark mode allows you to test the performance of a scenario
+without having to run the main game GUI. This allows scenario editors a
+chance to see how their creation will run in general terms. To access
+this mode, select 'Benchmark' from the file menu and the main window
+will close and the following dialog box will appear.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "header.autohide"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
