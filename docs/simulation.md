@@ -1,5 +1,58 @@
 # 12.0 Simulation & Unit Modeling
 
+??? info "FAQ: Is the cloud cover spread evenly or localized?"
+    By default, weather settings apply globally. However, you can override them locally using Custom Environment Zones (CEZs).
+
+??? info "FAQ: Does weather affect sensors?"
+    Yes, particularly visual & IR sensors, but also radar at certain frequencies. Weather also affects air operations - aircraft may be grounded by bad weather or night conditions based on their loadout capabilities.
+
+??? info "FAQ: Does weather affect underwater acoustics?"
+    It affects sonar performance in the surface duct (shallow sub vs ship, etc.). Once below the thermal layer, weather does not affect you except for local temperature which affects layer strength.
+
+??? info "FAQ: Is water depth taken into account?"
+    Yes. Shallow waters increase reverberation for sonars, can limit towed array and VDS deployment, and can block convergence zones (CZs). Bottom depth is crucial for thermocline layer formation. In very shallow waters, submarines may need to surface to transit (e.g., Bosporus).
+
+??? info "FAQ: What is the land warfare model like?"
+    Command excels at assets affecting air/naval/strategic operations: fixed and mobile radar sites, EW units, anti-aircraft units, long-range artillery and missile units, coastal anti-ship weapons, ICBM silos, and underground bunkers.
+
+    Tactical ground units (infantry, tanks) are present and can interact with air/naval forces. You can transfer and drop units from airlifters and amphibious ships.
+
+    Limitations show when ground units fight each other in large-scale land engagements: no terrain cover at small scale, simplified warhead-vs-armor, no cost-based pathfinding for roads, no automated resupply shuttles. Command is designed for Air/Naval operations, not Steel Panthers-level ground combat.
+
+??? info "FAQ: Do you model midnight sun and polar night?"
+    Yes. Command accurately adjusts day/night conditions for the midnight sun (24hr daylight in summer) and polar night (24hr darkness in winter) at polar latitudes.
+
+??? info "FAQ: What warhead types are modeled?"
+    Command models extensive warhead types including:
+
+    - High Explosive (Blast/Frag)
+    - Armor-Piercing (AP)
+    - HEAT Shaped Charge
+    - Incendiary (Napalm, WP)
+    - Fragmentation SAP
+    - Continuous Rod
+    - Hard Target Penetrator (HTP)
+    - Fuel-Air Explosive (FAE/Thermobaric)
+    - Torpedo & Depth Charge
+    - Nuclear
+    - Chemical & Bacteriological
+    - Cluster Bombs (Anti-Personnel, Anti-Tank, Anti-Runway, Guided)
+    - Mines (Anti-Personnel, Anti-Tank)
+    - Long Rod Penetrator (APDS/APFSDS)
+    - Anti-Electrical
+    - Laser Energy
+    - EMP (Directed and Omnidirectional)
+
+    One Damage Point (DP) equals 1kg of TNT. Various explosives types (Tritonal, Torpex, HMX, etc.) are automatically converted to TNT equivalents.
+
+??? info "FAQ: What is the communications model like?"
+    All platform-to-platform communication is instantaneous by default. Command supports communication disruption and (in Professional Edition) integrated communications jamming.
+
+    Platform-to-weapon datalinks include one-way (target position updates) and two-way (weapon passes data back, e.g., Walleye, SLAM-ER, Tactical Tomahawk). Wire-guidance for torpedoes and missiles and command guidance are also modeled.
+
+??? info "FAQ: How do you calculate horizon limitations?"
+    Command uses proper earth radius calculations, tangent angles, and surface angles - not textbook approximations. Radar, ESM, and infrared horizons differ from visual horizon as each EM wavelength has different refraction properties.
+
 ## 12.1 Deterministic vs. stochastic execution: Chess or chaos?
 
 *"The man who said 'I'd rather be lucky than good' saw deeply into

@@ -1,5 +1,64 @@
 # 5.0 ScenEdit
 
+??? info "FAQ: How do you determine Complexity and Difficulty ratings?"
+    These are subjective ratings set by the scenario author:
+
+    - **Difficulty:** How hard the scenario is to win
+    - **Complexity:** How many units are involved and the nuances of victory conditions
+
+??? info "FAQ: What are 'Single Unit Airfields' in the database?"
+    Single Unit Airfields are "all in one" units. Use them for air bases that are not targets. They're preferred because fewer active units means better game speed.
+
+    To build an airbase from scratch you need: 1 runway, 1 access point/taxiway, 1 aircraft holding unit (tarmac, revetment, hangar, etc.), 1 ammo holding unit (ammo dump, revetment, pad), and 1 fuel facility (AvGas).
+
+??? info "FAQ: Is there an upper limit to the number of units in a scenario?"
+    The engine can handle billions of units, but more units means more calculations. Performance is also affected by complex nav paths, many long-range sensors, lots of jammers, etc.
+
+??? info "FAQ: Why should I include 'unavailable' aircraft?"
+    Aircraft stuck on the ground are part of the real unit complement. They take up hangar/revetment space, provide targets for the enemy, and ensure realistic availability of air facilities. Without them, your operational aircraft would have unrealistic access to resources.
+
+??? info "FAQ: How do I add aircraft to a specific carrier in a group?"
+    Switch to Unit View, select the individual aircraft carrier, then add aircraft. If you select a group, aircraft will be distributed among all ships in the group.
+
+??? info "FAQ: Do I need to fill aviation magazines with drop tanks and gun ammo?"
+    No. Drop tanks, sonobuoys, and gun ammo are in unlimited supply. You don't need to add them to magazines.
+
+??? info "FAQ: Will my platform modifications survive a database update?"
+    Changes to individual platforms (weapons, sensors, magazine contents) will be erased on database rebuild. Use **Editor > SBR > Generate Delta Template** to save changes to an .ini file. This file can be reapplied after rebuilding to restore your modifications.
+
+??? info "FAQ: How can I show cities on the map?"
+    Insert a facility called 'Marker (City)' and rename it as needed.
+
+??? info "FAQ: How do I put pictures in the scenario briefing?"
+    The simplest method is to use a web-hosted image URL. Alternatively, use a data URI - convert your image to base64 at [duri.me](http://duri.me/) and put the result in the href field.
+
+??? info "FAQ: How should I name aircraft?"
+    Use squadron/regiment name and aircraft number/tail code. Standard convention:
+
+    - **USN:** `VF-1 Wolfpack, NE-101` (Squadron, Tail Code-Number)
+    - **USAF:** `43rd TFS #05` (Squadron, Generic Number)
+    - **Soviet:** `611 IAP PVO, 1 Sqn #10` (Regiment, Squadron, Number)
+    - **RAF:** `No. 120 Sqn #04` (Note 'No.' prefix)
+
+??? info "FAQ: How many sides can I create?"
+    Almost unlimited, but each side needs separate contact lists and allied data exchange, impacting performance. Use as few sides as possible. For neutral/civilian sides that don't shoot, set awareness to 'Blind' and uncheck 'Collective Responsibility.'
+
+??? info "FAQ: How can I convert Google Earth placemarks to Command installations?"
+    Use the KML-to-INST tool. See the manual for details.
+
+??? info "FAQ: How do I fit a ship with future weapons like NSM or SLCM-N?"
+    In the Weapons window, add 0/29, 0/32, 0/61, or 0/64 weapon records to the mounts depending on VLS cell count, then load the weapons you want.
+
+??? info "FAQ: What is the best way to disable an airbase?"
+    Assess airfields based on three criteria:
+
+    1. **Access points vs runways:** If 1 runway with 3 access points, hitting access points is easier
+    2. **Aircraft parking type:** Open parking is vulnerable to strikes; hangars limit blast damage; underground storage needs specialized munitions
+    3. **Ammo storage concentration:** A single surface ammo depot may be the easiest high-value target
+
+??? info "FAQ: How do I account for Daylight Saving Time?"
+    Command uses Zulu time (UTC) primarily. Local time is displayed without DST. If DST matters for your scenario (matching local sunrise/sunset), manually enter DST start and end dates in **Editor > Scenario Date and Duration**.
+
 The scenario editing mode in COMMAND is accessible by selecting either
 "Create New Scenario" or "Edit Scenario" from the start menu, or the
 "create new blank scenario" option from the file menu. Existing files

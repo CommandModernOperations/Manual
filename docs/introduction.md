@@ -1,5 +1,37 @@
 # 2.0 Introduction to COMMAND
 
+??? info "FAQ: What is Command: Modern Operations?"
+    Command: Modern Operations (CMO) is a tactical-operational level wargame/simulation of joint all-domain operations, from post-WW2 to the near future.
+
+    - **Tactical-operational level:** The simulation begins from individual platforms (ships, aircraft, ground vehicles, buildings etc.), each composed of individual components (guns, launchers, sensors, comms & datalinks, powerplants & engines, facilities for aircraft etc.) operating at the tactical level. It scales up to the operational/theater level, where logistics, turn-around cycles, intelligence, force allocation, and mission tasking dominate.
+
+    - **Wargame/simulation:** Command straddles the line between a traditional wargame and a professional military simulation. Player success depends not on reflexes or "gameplay balance", but on understanding real capabilities, limitations, and operational trade-offs.
+
+    - **Joint, all-domain operations:** Command demonstrates how land, sea, air, space, strategic and cyber forces work together rather than in isolation. The player synchronizes disparate forces across domains and time to achieve tactical and operational objectives.
+
+    - **Post-WW2 to the near future:** Command covers military operations from the post-WW2 colonial drawdown and beginning of the 1st Cold War all the way to today's hotspots and the foreseen battlefields of tomorrow.
+
+??? info "FAQ: Do I need military experience to play?"
+    Many Command players have military backgrounds, but the game is also played by regular enthusiasts with a fascination for all-domain warfare. The developmental efforts have focused on making the game easy to operate, with a rich variety of tutorial scenarios that help players learn basic concepts of modern warfare as well as the user interface.
+
+    Command is not an arcade game with visually stunning explosions. It requires a significant investment of intellectual and temporal capital, and is not for everyone. However, if you really want to understand modern integrated warfare, this is your first choice according to many players.
+
+??? info "FAQ: Is Command a true 3D simulation?"
+    Yes. Command is a full 3D simulated environment using a true 3D planet globe. While the default view is top-down 2D, you can raise the camera viewpoint altitude to see the full 3D nature of the simulation. Satellites and all aerospace units are depicted at their correct altitudes with dashed "beanstalks" showing their vertical position.
+
+??? info "FAQ: Does Command have multiplayer?"
+    Real-time and WEGO-style multiplayer modes are currently available only in Command-PE (Professional Edition). For CMO there is an unofficial third-party mod which offers PBEM-style multiplayer. Real-time multiplayer for CMO is under development.
+
+??? info "FAQ: How does Command compare to games like Dangerous Waters?"
+    Dangerous Waters, Sub Command etc. are more low-level tactical, "levers and buttons" simulations. Command assumes that the AI crew handles many housekeeping tasks (resolving bearing ambiguity of passive sonar, performing TMA, etc.) so you can focus on the tactical picture, much like in Microprose's classic "Red Storm Rising."
+
+    Command's scope is that of a grand tactical/operational commander. You manage forces while many tactical functions are handled by the AI, though you can take manual control to plot courses, set speeds/depths and fire weapons. This higher-level modeling allows Command to scale to much greater theaters and unit numbers than practical in "study" sims.
+
+??? info "FAQ: Are WW2 scenarios possible?"
+    Yes, with certain limitations. Many WW2 technologies (depth charges, straight-running torpedoes, mines, unguided munitions) are modeled since they also saw use in the Cold War era. Many WW2 platforms are available in the Cold War Database (CWDB, 1946-1979).
+
+    However, some WW2-specific elements are not yet modeled: plunging shell fire, "crossing the T" tactics, and diesel subs without snorkels. If these details don't distract you, you can have a lot of fun with WW2 scenarios.
+
 Entering COMMAND, there are four main game modes.
 
 **Game Modes:**

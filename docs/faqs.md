@@ -1,5 +1,60 @@
 # FAQs, Resources, and Learning:
 
+??? info "FAQ: What books are recommended for understanding modern naval warfare?"
+    The following books provide excellent background knowledge for Command players:
+
+    **Foundational Texts:**
+
+    - **Fleet Tactics and Coastal Combat** by CAPT Wayne Hughes, USN (Ret.) - The definitive work on modern naval tactics. Essential reading for understanding how modern fleets operate.
+    - **Soviet Naval Tactics** by Milan Vego - Comprehensive coverage of Warsaw Pact naval doctrine and operations.
+    - **Soviet Military Power** (DIA publications) - Historical Soviet military capabilities assessments.
+
+    **Historical Accounts:**
+
+    - **One Hundred Days: The Memoirs of the Falklands Battle Group Commander** by Admiral Sandy Woodward - First-hand account of commanding the British task force during the Falklands War.
+    - **Sea Harrier Over The Falklands** by Cdr. Sharkey Ward - A pilot's perspective on the Falklands air war.
+    - **Modern Naval Combat** by David Miller & Chris Miller - Overview of contemporary naval warfare systems and tactics.
+
+    **Fiction (Tactically Accurate):**
+
+    - **Red Storm Rising** by Tom Clancy - Classic NATO vs. Warsaw Pact conflict scenario.
+    - **The Sixth Battle** by Barrett Tillman - Detailed carrier battle scenario in the Pacific.
+    - **Vortex** by Larry Bond - South African conflict scenario.
+    - **Red Phoenix** by Larry Bond - Korean peninsula conflict.
+    - **Cauldron** by Larry Bond - European conflict scenario.
+
+    **Reference Guides:**
+
+    - **Naval Institute Guide to World Naval Weapons Systems** - Comprehensive weapons database.
+    - **Naval Institute Guide to Combat Fleets of the World** - Order of battle and ship specifications.
+    - **Jane's Fighting Ships** - The authoritative naval reference (annual editions).
+    - **Jane's All the World's Aircraft** - Comprehensive aircraft specifications.
+
+??? info "FAQ: What websites provide useful information for Command players?"
+    **Official Resources:**
+
+    - [Command Matrix Forums](https://www.matrixgames.com/forums/viewforum.php?f=10201) - Official community forums
+    - [Command Developer Website](https://command.matrixgames.com/) - Official development site
+    - [WarfareSims](https://www.warfaresims.com/) - Developer website with additional resources
+
+    **Military Reference Sites:**
+
+    - [GlobalSecurity.org](https://www.globalsecurity.org/) - Military systems and organizations
+    - [FAS (Federation of American Scientists)](https://fas.org/) - Military analysis and weapons systems
+    - [Naval Technology](https://www.naval-technology.com/) - Naval platforms and systems
+    - [Air Force Technology](https://www.airforce-technology.com/) - Aircraft and air defense systems
+
+    **Database and Technical Resources:**
+
+    - [Missile Index](https://missilethreat.csis.org/) - CSIS Missile Defense Project
+    - [Military Factory](https://www.militaryfactory.com/) - Weapons and platforms database
+    - [Scramble](https://www.scramble.nl/) - Aviation information
+
+    **Scenario and Community Resources:**
+
+    - [Command Scenario Exchange](https://www.matrixgames.com/forums/viewforum.php?f=10230) - User-created scenarios
+    - Various YouTube channels with Command tutorials and gameplay
+
 ## CMO Architecture
 
 Is CMO 32-bit or 64-bit? Any CMO build at 1307 or less is 32-bit. Any

@@ -1,5 +1,60 @@
 # 1.0 Installation
 
+??? info "FAQ: Where can I obtain a copy?"
+    Command and its various DLC packs are available on [Steam](https://store.steampowered.com/app/1076160/Command_Modern_Operations/). It can also be purchased as a standalone product (offline installer with serial key) at [Matrix Games](https://www.matrixgames.com/). Buying at Matrix Games also provides you with a free Steam key.
+
+??? info "FAQ: Do I need an internet connection?"
+    Command does not require an internet connection to activate or play. However, if you want to upgrade the game to the latest version (which is highly recommended), you will need an internet connection.
+
+??? info "FAQ: What are the recommended system requirements?"
+    - **OS:** Windows 10/11
+    - **Processor:** Quad-core, 4th-generation Intel or equivalent
+    - **Memory:** 8 GB RAM
+    - **Graphics:** DX11 compatible GeForce GT 1030+ or equivalent (some iGPUs work well, e.g. AMD Ryzen)
+    - **DirectX:** Version 11
+    - **Storage:** 40-50GB available space
+
+    Command is first and foremost a CPU-hungry beast. The simulation engine is multithreaded and scales well up to 8 cores. Processors with few-but-powerful cores have an advantage over many-but-less-powerful cores.
+
+??? info "FAQ: Does Command run on Mac or Linux?"
+    **Mac:** Command does not run natively on any Mac operating system, but you can use virtualization software like Parallels or VMWare Fusion to run it inside a VM on top of the host operating system.
+
+    **Linux:** Officially, there is no support for running on Linux. However, numerous users have succeeded in running Command on Linux. A pinned thread on Steam discusses how to accomplish this.
+
+??? info "FAQ: Are there any known incompatibilities?"
+    Some motherboard utilities and screencasting programs (particularly those working with DirectX overlays) can interfere with Command's execution and distort some of its data windows. Frequent culprits include:
+
+    - RivaTuner
+    - Nahimic
+    - Nvidia Share
+    - MSI Afterburner
+    - Discord's "Game Overlays" mode
+
+    If the Unit Status panel gets corrupted when you mouse over it, check if any of these overlays are enabled and disable them.
+
+??? info "FAQ: How can I upgrade to the latest version?"
+    There are two ways to upgrade:
+
+    1. **Steam version:** Updates are handled automatically through Steam.
+
+    2. **Standalone version:** Use the "Update" button from the game launcher applet, or download updates manually from the Matrix Games Product Download Page.
+
+    Update files are cumulative, so you only need to download the most recent version. The development team regularly releases unofficial "Build XXX" updates with the latest fixes and improvements, which are fully supported.
+
+??? info "FAQ: Where can I download more scenarios?"
+    Command has 43 tutorials and 57 standalone scenarios included, but many more have been developed by the user community:
+
+    - [Matrix Games Mods and Scenarios subforum](https://forums.matrixgames.com/viewforum.php?f=10233)
+    - [Steam Workshop](https://steamcommunity.com/app/1076160/workshop/)
+    - Community Scenario Pack (CSP) - regularly updated anthology of community scenarios
+
+??? info "FAQ: Command crashed and I hadn't saved. Is my progress lost?"
+    Command automatically saves your scenario every 20 seconds on a rotating series of autosave files. You can find them at:
+
+    `[CMO install folder]\Scenarios\Autosaves\[Scenario Name]\Autosave_XXX.scen`
+
+    Alternatively, restart Command and click "Resume from autosave" on the start screen to quickly load the most recent autosave.
+
 Command Modern Operations is available through multiple distribution channels including Steam, Matrix Games, and physical retail. Installation varies slightly depending on your purchase method:
 
 - **Steam**: Command will download and install automatically through the Steam client. Updates are handled automatically.

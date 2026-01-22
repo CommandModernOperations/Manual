@@ -1,5 +1,101 @@
 # 7.0 Missions, Cargo Missions, Operations Planning, and Reference Points
 
+??? info "FAQ: How do I select which side to play in a scenario?"
+    When you load a scenario, you'll see a briefing window with a "Side:" label and a drop-down list of all playable sides. Some scenarios can only be played from one side, while others offer two or more options.
+
+??? info "FAQ: How do I select multiple units on the map?"
+    Click and drag to select multiple units, or use **Shift + mouse click** to add units to your selection.
+
+??? info "FAQ: How do I set 'weapons tight' (Hold Fire)?"
+    - **Selected unit(s):** Press **A** or go to **Unit Status > Attack Options > Toggle Hold Fire for selected units**
+    - **All units on side:** Press **Ctrl+A** or use the menu option for all units on current side
+
+??? info "FAQ: How do I control the amount of ordnance to shoot at a target?"
+    Select the firing unit and press **Shift+F1** (or go to **Unit Status > Attack Options > Engage Target(s) - Manual**). Select target(s) to bring up the Weapon Allocation window where you can assign specific weapons.
+
+??? info "FAQ: How do I disband a group?"
+    Select the group in Group View and press **Delete**. Alternatively, switch to Unit View, drag-select units, and press **D** (Detach). To disband the whole group, select all units and press D.
+
+??? info "FAQ: Plotting a course for a unit 'Engaged Offensive' doesn't work. How do I override?"
+    Press **I** or go to **Unit Orders > Attack Options** and uncheck "Ignore Plotted Course When Attacking - Selected Unit". The unit will then revert to its plotted course.
+
+??? info "FAQ: What is the difference between Unfriendly and Hostile postures?"
+    - **Unfriendly:** Maneuver to intercept and localize/ID, but do not engage unless "Engage non-hostiles" doctrine is activated.
+    - **Hostile:** Maneuver to intercept and engage if part of mission. Aircraft and missile contacts are automatically engaged regardless of mission type.
+
+??? info "FAQ: What is the difference between Patrol Area and Prosecution Area?"
+    - **Patrol Area:** The area your units move within.
+    - **Prosecution Area:** The area in which targets are considered threats and engaged. Units will leave the patrol area to engage targets in the prosecution area.
+
+    Without a Prosecution Area, units only engage contacts entering the Patrol Area.
+
+??? info "FAQ: How do I order Check Fire (disengage targets)?"
+    - **Drop all targets:** Select the unit and press **Ctrl+E**
+    - **Drop specific target:** Select the unit, press **E**, then select the target(s) to drop (Shift+click for multiple)
+
+??? info "FAQ: What are WINCHESTER and SHOTGUN / BINGO and JOKER states?"
+    - **BINGO:** Low fuel state - fuel to return to base plus reserves (typically 5% + 20 min loiter at sea level)
+    - **JOKER:** Pre-briefed fuel state at which separation/bugout should begin (reached before BINGO)
+    - **WINCHESTER:** No ordnance remaining (down to gun or harsh language)
+    - **SHOTGUN:** Pre-briefed weapons state at which separation should begin
+
+??? info "FAQ: Why are my land-based SSM not firing?"
+    Units only fire when explicitly ordered or allowed. To get SSM batteries to fire:
+
+    1. Assign them to ASuW Strike/Patrol, or Sea Control Patrol mission, OR
+    2. Change their ROE to "Engage Opportunity Targets"
+
+    The AI won't fire at unidentified targets unless ROE allows it. Set up an exclusion zone if you want any ships in an area to be legitimate targets.
+
+??? info "FAQ: Can I re-target datalinked weapons like Tactical Tomahawk?"
+    Yes. Select the weapon, press **F1**, and select the new target.
+
+??? info "FAQ: What is the best way to employ ITALD and TALD decoys?"
+    Fire them along with other ASMs or ahead of your strike aircraft using **Ctrl+F1** (BOL-launch). They provide extra targets to distract SAM and radar sites. The AI can use decoys as part of strike or SEAD missions.
+
+??? info "FAQ: How do I fire naval SAMs against surface ships?"
+    Many ship-based SAMs with SARH have an anti-surface mode. You need to:
+
+    1. Get close enough for your ship to literally see the target (for illuminator geometry)
+    2. Go to **Doctrine window (Ctrl+F9)** and set "Use SAMs in anti-surface mode" to Yes
+
+??? info "FAQ: What does the yellow 'L0' or 'L1' under aircraft symbols mean?"
+    This is the landing priority number. Aircraft at the marshal point are automatically prioritized based on remaining endurance. Aircraft L0 lands first.
+
+??? info "FAQ: Why do most combat aircraft have a 40,000 feet ceiling?"
+    Combat aircraft rarely go higher than 40k ft operationally. In special cases 45k ft, but not higher.
+
+??? info "FAQ: Why does it take 6 hours to prepare my strike aircraft?"
+    Command models everything involved in launching a mission: arming, planning, crew briefing, not just physical weapon loading. This is realistic sortie rate modeling.
+
+??? info "FAQ: What is the 'Maintenance (Unavailable)' loadout?"
+    These represent aircraft that cannot be used but take up space and resources. Typically 25-50% of aircraft are under maintenance, stood down, or not scheduled to fly at any given time. They also make great targets for enemy strikes.
+
+??? info "FAQ: What is the difference between 'Reserve' and 'Unavailable' loadouts?"
+    - **Reserve:** Aircraft unavailable at start but can become ready later in the scenario
+    - **Unavailable:** Aircraft unavailable for the entire scenario duration
+
+??? info "FAQ: Do UAVs behave differently from manned aircraft?"
+    Yes. UAVs do not apply their agility bonus on weapon endgame calculations, making them very vulnerable to anti-air fire. Remote operators have less situational awareness (looking through a sensor is "looking through a straw") and may be unable to evade ground fire as quickly.
+
+??? info "FAQ: How do I recharge my submarine's batteries?"
+    Go to periscope depth. The submarine will automatically raise the snorkel, start diesel generators, and recharge batteries. Set throttle to creep for faster recharge.
+
+??? info "FAQ: How do I deploy towed array sonar?"
+    Towed arrays deploy automatically in deep enough water. If you see faint Convergence Zone (CZ) rings around your ship/sub, you have a towed array operational.
+
+??? info "FAQ: How is submarine communications handled?"
+    All platform-to-platform communication is instantaneous in Command. You can actively control units and share information even when it would be impossible in real life. Command supports communications disruption and jamming models for more realistic scenarios.
+
+??? info "FAQ: How do I get helicopters or aircraft to search for submarines?"
+    Define an area using reference points. Create a "Patrol/ASW" mission and assign the vessels, helicopters, or aircraft to that mission.
+
+??? info "FAQ: My submarine depth orders are being ignored. Why?"
+    If assigned to an ASW or Sea Control mission, the mission logic dictates speed and depth. Use **U** to unassign the unit from the mission. For more manual control, turn off automatic evasion in ROE settings.
+
+??? info "FAQ: Why don't my ASW aircraft drop torpedoes until they're right on top of the target?"
+    Real-life ASW tactics. If you drop a torpedo from far away, it uses much of its fuel reaching the target position, and an alert submarine captain has time to clear datum at high speed. Dropping close gives the torpedo the best chance of catching the submarine.
+
 Missions and reference points are the vital building blocks of COMMAND.
 Learning how to use them is essential for both playing and creating
 scenarios.

@@ -1,5 +1,61 @@
 # 8.0 Databases and Templates
 
+??? info "FAQ: Why do the databases have multiple entries for the same platform?"
+    There are multiple entries to represent all operators, main versions, sub-versions, and weapon configurations over time. Each entry represents a specific configuration at a specific time.
+
+??? info "FAQ: Why are later S-3 Viking variants not carrying ASW weapons?"
+    The Viking's ASW role was removed in 1999. US aircraft carriers then deployed Vikings for the tanker role and ASuW armed with iron bombs, Harpoons and Mavericks. The ASW mission was taken over by Seahawks and Orions. The Viking was retired from frontline service in 2009.
+
+??? info "FAQ: Why do many guns have such low Probability of Kill (PoK) against aerial targets?"
+    Anti-ship cruise missiles are extremely difficult to shoot down. Even if destroyed in mid-air, a missile may still cause serious damage if the warhead detonates within 500m of the target, or if debris hits the ship. In the Falklands War, only one of six Exocet missiles fired at British ships was shot down - and this kill is not even 100% certain.
+
+??? info "FAQ: Why do Aegis ships have empty Mk41 VLS cells?"
+    There are not enough weapons to fill all VLS cells. Typical loadout for a Ticonderoga is 96x SM-2s (48 per VLS). Burke 'heavy' AAW loadout is 72x SM-2. Ships also carry a handful of Tomahawks and VLAs. You can reconfigure loadouts in the scenario editor.
+
+??? info "FAQ: Why are some aircraft missing loadouts with weapons they could carry?"
+    Just because an aircraft can physically carry a weapon doesn't mean pilots train with it operationally. For example, F-111Fs are authorized for Maverick missiles but crews prefer LGBs. A-10s are authorized for LGBs but prefer Mavericks, iron bombs, and cluster bombs. Command models operational loadouts, not theoretical ones.
+
+??? info "FAQ: Why is there no 6-Phoenix loadout for the F-14 Tomcat?"
+    The F-14 never trained operationally with 6 Phoenixes. Photos showing this loadout were taken during land-based qualification trials. The 50,000lb fully-loaded aircraft required dangerously low fuel for carrier landings. Even 4 Phoenixes was considered draggy. Command includes realistic operational loadouts instead.
+
+    Exception: The 'F-14A Tomcat [Crazy Bob]' entry represents CVW-11's unique 1982-1986 period under Captain R.L. Leuschner, who ran highly realistic combat drills with 6-Phoenix loads.
+
+??? info "FAQ: Why won't my fighters fly faster than Mach 1.6?"
+    Warplanes never fly at theoretical maximum speeds operationally. Over a fighter's 6000-8000hr lifespan, less than 10% is spent supersonic. Going beyond Mach 1.6 offers no tactical advantage, uses enormous fuel, and may be impossible due to weapon drag, release envelope limitations, and the danger of high-speed ejection (survival drops dramatically above Mach 1.0).
+
+    This is based on real-world data:
+
+    - F-16 minimum time intercept: Mach 1.6
+    - F-14A intercept speed: Mach 1.35
+    - F-14D intercept speed: Mach 1.5
+    - F-4 typical CAP max: Mach 1.35
+
+??? info "FAQ: Why do torpedoes have such short range?"
+    Soviet doctrine stated torpedoes should not be fired beyond 13k yards. Hitting probability drops dramatically beyond that range, and you alert the target to your presence. Command uses practical firing ranges (~8nm) based on real-world doctrine, not maximum theoretical range. You can still BOL-launch torpedoes for manual guidance at longer ranges.
+
+??? info "FAQ: What are the New Threat Upgrade (NTU) ship advantages?"
+    NTU allows ships to time-share illumination radars for multiple missile interceptions (similar to Aegis). Pre-NTU ships have pure-SARH missiles flying direct pursuit. Post-NTU ships have upgraded missiles, AEGIS-style weapon datalinks, lead pursuit, lofted profiles, and in-flight retargeting. The difference is dramatic against fast crossing targets like SS-N-12 Sandbox missiles.
+
+??? info "FAQ: Does Command come with a database editor?"
+    Only in the Professional Edition. CMO allows customizing platforms within scenarios by adding/removing mounts, magazines, sensors, and changing weapon quantities. This prevents database/scenario mismatches while allowing significant customization.
+
+??? info "FAQ: Where can I submit platform requests or report database errors?"
+    Submit requests and error reports at the [CMO Database Requests GitHub](https://github.com/PygmalionOfCyprus/cmo-db-requests). Include links to reliable sources for new platform data.
+
+??? info "FAQ: Why does the Cold War Database end at 1979?"
+    1979 was a watershed year (Soviet invasion of Afghanistan, Iranian Revolution). The 1980s saw the Reagan-era military buildup. Each database covers roughly thirty years - about as long as a professional military career. There is platform overlap built into both databases.
+
+??? info "FAQ: How can I add images and descriptions to database entries?"
+    The Database Viewer supports up to 7 photos per entry. Save images to:
+
+    `[CMO folder]\DB\Images\DB3000\[Type]_[ID].jpg` (main photo)
+
+    `[CMO folder]\DB\Images\DB3000\[Type]_[ID]_t1.jpg` through `_t6.jpg` (thumbnails)
+
+    For descriptions: `[CMO folder]\DB\Descriptions\DB3000\[Type]_[ID].txt`
+
+    Types: `Aircraft`, `Ship`, `Submarine`, `Facility`
+
 ## 8.1 Scenarios vs. Databases
 
 COMMAND has two databases that store all information on platforms

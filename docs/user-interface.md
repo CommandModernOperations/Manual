@@ -1,5 +1,65 @@
 # 3.0 User Interface
 
+??? info "FAQ: How can I make Command run faster?"
+    Go to **Game > Game Options** and turn off the following:
+
+    - **High-fidelity mode**
+    - **No-pulse time mode**
+
+    This makes the game run at 1 second resolution rather than 1/10 second resolution. Also, turn off as many range rings as you can, or set them to "Selected Unit Only." [Process Lasso](https://bitsum.com/processlasso/) has been noted by many users to provide a substantial speed improvement.
+
+??? info "FAQ: How can I change altitude from metric to imperial?"
+    Go to **Game > Game Options** and check **'Show Altitude in Feet'** to view altitude and depth in feet rather than meters.
+
+??? info "FAQ: What kind of maps does Command use?"
+    Command uses two types of map data:
+
+    - **Digital Elevation Model (DEM):** A modified version of the SRTM30PLUS dataset with 30 arc-second resolution (~900m/cell). The Professional Edition offers 3 arc-second resolution (90m/cell).
+
+    - **Raster overlays:** Multiple layers optimized for different use cases, including Sentinel-2 satellite imagery and OpenTopoMap topographic data.
+
+??? info "FAQ: How do I edit a plotted course?"
+    - **Create new course:** Press F3 and click on the map to place waypoints. Press Esc or F3 when done, or double-click on the last waypoint.
+    - **Move a waypoint:** Click and drag the waypoint.
+    - **Create new waypoint:** Hold Ctrl, click and drag an existing waypoint (must move at least 4 pixels).
+    - **Delete a waypoint:** Click on it and press Delete.
+    - **Delete whole course:** Select the unit and press F3 twice.
+    - **Re-plot from mid-course:** Select a waypoint and press F3 to delete all waypoints beyond it.
+
+??? info "FAQ: How do I set throttle and altitude for individual waypoints?"
+    Select the waypoint and press F2. Alternatively, right-click on the waypoint and select **Throttle - Altitude/Depth**.
+
+??? info "FAQ: How do I set EMCON for individual waypoints?"
+    Select the waypoint and press F9. Alternatively, right-click on the waypoint and select **Sensors**.
+
+??? info "FAQ: The message log window is gone. How do I get it back?"
+    If the message log was in a separate window and moved off-screen, go to **Game > Game Options > Reset position of secondary windows**.
+
+??? info "FAQ: How do I make the map track a selected unit?"
+    Select the unit and press T. Alternatively, go to **Map Settings > Track Selected Unit**. Press T again to stop tracking.
+
+??? info "FAQ: How do I make mouse scroll zoom at the cursor location?"
+    Go to **Game > Game Options > General** and select **'Map zooms on mouse cursor'**.
+
+??? info "FAQ: How do I configure which messages appear?"
+    Go to **Game > Game Options > Messages** to configure which message types appear and which cause a pop-up that freezes the clock. Very useful for new weapon contacts.
+
+??? info "FAQ: Is there a ruler and compass tool?"
+    Yes. Press **Ctrl+D** or go to **View > Range/Bearing Tool** to activate it. Draw a temporary line between two points to display distance and bearing. Double-click on the map or press Ctrl+D again to deactivate.
+
+??? info "FAQ: Why is the Radar Illuminator text in red?"
+    Radar Illuminators are dangerous radars used with Semi-Active Radar Homing (SARH) missiles. Once an illuminator goes active, there is most likely a missile in the air heading for the illuminated target.
+
+??? info "FAQ: Can I manually designate contacts as Hostile/Neutral/Friendly?"
+    Yes. Select the contact(s) and press:
+
+    - **H** - Mark as Hostile
+    - **N** - Mark as Neutral
+    - **F** - Mark as Friendly
+
+??? info "FAQ: What does 'Reload Priority' do in the Weapons window?"
+    Reload priority instructs your crew to prioritize loading a specific weapon on a mount. Useful for multi-weapon launchers where you want specific weapons always ready (e.g., keeping Mk48 torpedoes on two torpedo tubes and Harpoons on the other two).
+
 Command's user interface (UI), in simplest terms, is a zoomable globe
 bordered by a menu, game controls and informational displays. The globe
 allows for action on a truly worldwide scale. Units can move from one

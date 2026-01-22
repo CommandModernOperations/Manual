@@ -1,5 +1,81 @@
 # 9.0 COMBAT
 
+??? info "FAQ: How detailed is the radar model?"
+    Command's radar model is extremely detailed, accounting for: frequencies, horizontal/vertical beamwidth, System Noise Level, Processing Gain/Loss, Peak Power, Pulse Width, Blind Time (pulse compression), PRF, min/max range, min/max altitude, scan interval, range/height/angle resolution, various capabilities (air/surface/ground/periscope detection, RASH info), OTH-B/OTH-SW, pulse-only & doppler with limited/full LDSD, MTI, NCTR, phased array continuous tracking, and CW/CWI capability.
+
+??? info "FAQ: How do ESM/RWR sets work?"
+    The database contains hundreds of ESM/RWR systems. Detection ranges are calculated based on the ESM antenna characteristics vs. the target radar's power output. High-end ESM/ELINT sets can detect powerful radars at extremely long ranges.
+
+??? info "FAQ: What is the ECM model like?"
+    Command models detailed jammer-vs-radar interactions including power output, frequencies, antenna characteristics, and sidelobe effects. Jamming effectiveness depends on the jammer pointing at the target radar antenna. Sidelobe jamming has less effect than mainlobe jamming.
+
+??? info "FAQ: How does stealth work?"
+    Stealth and low-observable aircraft/ships have smaller radar, visual, and IR signatures. Command uses several generations of radar stealth with various signature modifiers. A-D band radars are more effective against stealth than E-K band radars because longer wavelengths produce resonance effects with aircraft-sized components.
+
+??? info "FAQ: How do Low Probability of Intercept (LPI) radars work?"
+    LPI radars use very low power output (0.1W-1W) with better processing gain than conventional sets. They can often detect targets before being counter-detected. Advanced RWRs and ESM sets will detect LPI radars at longer ranges than basic equipment.
+
+??? info "FAQ: How do High Off-Boresight (HOB) missiles work?"
+    Both HOB weapons and Helmet-Mounted Displays (HMDs) contribute to firing arc:
+
+    - Standard missile: 40 degrees
+    - HOB missile: +20 degrees
+    - HMD: +30 degrees
+
+    Example: Su-27 with AA-11 Archer (HOB + HMD) can engage targets up to 90 degrees off-boresight.
+
+??? info "FAQ: Are anti-air missiles adjusted for range?"
+    Yes. Rocket-powered weapons have PHs maximized at 50% of max range, gradually reduced to 50% of base-PH at full range. Ramjet-powered weapons (Sea Dart, SA-6, Meteor) maintain full base-PHs up to 75% of max range with only 25% max reduction.
+
+??? info "FAQ: Does the aircraft bombsight affect accuracy?"
+    Yes. Bombsight affects Circular Error Probability (CEP) for ballistic weapons:
+
+    - Basic: No reduction
+    - Ballistic Computing: 25% reduction
+    - Advanced Computing: 50% reduction
+    - Advanced Navigation (INS/GPS): 75% reduction
+
+??? info "FAQ: How are periscopes simulated?"
+    Periscopes are automatically raised when a submarine reaches periscope depth. They can be detected by radars that have periscope detection capability (not many do).
+
+??? info "FAQ: What is a semi-active seeker?"
+    Semi-active seekers home on radar or laser energy reflected from the target. An illuminator "paints" the target with energy that the weapon tracks. Illuminators require line-of-sight and are limited by horizon. Laser illuminators cannot see through fog or clouds, making LGBs useless in those conditions.
+
+    Illuminator beams are displayed as broken red lines. Ground units can illuminate targets for aircraft LGBs if the aircraft lacks an onboard designator.
+
+??? info "FAQ: What weapon guidance types are modeled?"
+    Command models comprehensive guidance types:
+
+    - Semi-Active (SARH, SALH)
+    - Inertial + Semi-Active (INS + SARH/SALH)
+    - Datalink + Semi-Active (DL + SARH)
+    - Passive (ARM, IR)
+    - Inertial + Passive (INS + ARM/IR)
+    - Datalink + Passive (DL + ARM)
+    - Active (ARH)
+    - Inertial + Active (INS + ARH)
+    - Datalink + Active (DL + ARH)
+    - Command-Guided / Track-Via-Missile (TVM)
+    - Beam Riding
+    - Inertial (INS, INS + GPS)
+    - Semi-Active + Active (SARH + ARH)
+    - Timeshared Semi-Active + Active (TSARH + ARH)
+
+??? info "FAQ: How does the visual/IR model work?"
+    Command distinguishes between Detection, Classification, and Identification. Visual sensors have two magnification levels - low for search (typically 1-2x), high for classification (2-40x+).
+
+    Detection ranges depend on physical size, visual/IR modifiers (High-Viz, Low-Viz Camo, etc.), and time-of-day. Contrails form at altitudes above 8000m when temperature is below -40C, making high-altitude aircraft visible at long range even when the aircraft itself cannot be seen.
+
+??? info "FAQ: How does the F-14 TCS (TV Camera Set) work?"
+    The TCS has 10x magnification for classification. When slaved to the radar, it can classify targets detected by radar at ranges up to 14nm (MiG-23) or 40nm (B-52). Without radar cueing, detection ranges are limited - searching with narrow FOV sensors is like "looking through a straw."
+
+??? info "FAQ: How does Look-Down/Shoot-Down (LD/SD) work?"
+    - No LD/SD: Can only detect targets at 5 degrees below
+    - Limited LD/SD: 15 degrees below
+    - Modern radars: No limitation
+
+    An F-4E at 40,000ft can detect a MiG-23 at NOE out to 35nm because the angle is within the 15-degree limit of its AN/APQ-120 radar.
+
 Combat in Command involves several basic factors. First one must see the
 opponent. Then you must hit the opponent. The former involves sensors,
 the latter involves weapons.
