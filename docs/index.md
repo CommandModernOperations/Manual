@@ -17,8 +17,3 @@ Command Modern Operations is a comprehensive wargame covering all aspects of air
 | [Missions](missions.md) | Mission planning and execution |
 | [Combat](combat.md) | Combat systems and mechanics |
 | [Simulation](simulation.md) | Engine modeling and behavior |
-
-## Document Information
-
-- **Version**: Revision 156
-- **Classification**: UNCLASSIFIED // PUBLIC RELEASE
